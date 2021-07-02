@@ -1,2 +1,9 @@
 [
+  {
+    "LiveFrom": "01/07/2021",
+    "CaseTypeID": "C100",
+    "CaseStateID": "Created",
+    "UserRole": "caseworker-privatelaw-solicitor",
+    "CRUD": "CRU"
+  }
 ]

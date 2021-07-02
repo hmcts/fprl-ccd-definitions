@@ -1,2 +1,10 @@
 [
+  {
+    "LiveFrom": "01/07/2021",
+    "CaseTypeID": "C100",
+    "ID": "Created",
+    "Name": "C100 application case created",
+    "Description": "C100 application case created",
+    "DisplayOrder": 1
+  }
 ]
