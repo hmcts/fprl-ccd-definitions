@@ -2,6 +2,20 @@
   {
     "LiveFrom": "01/07/2021",
     "CaseTypeID": "C100",
+    "CaseFieldID": "LabelState",
+    "UserRole": "caseworker-privatelaw-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/07/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "CaseHistory",
+    "UserRole": "caseworker-privatelaw-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/07/2021",
+    "CaseTypeID": "C100",
     "CaseFieldID": "ApplicantName",
     "UserRole": "caseworker-privatelaw-solicitor",
     "CRUD": "CRU"

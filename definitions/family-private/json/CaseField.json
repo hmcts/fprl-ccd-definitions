@@ -2,6 +2,22 @@
   {
     "LiveFrom": "01/07/2021",
     "CaseTypeID": "C100",
+    "ID": "LabelState",
+    "Label": "#### Case State:  ${[STATE]}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/07/2021",
+    "CaseTypeID": "C100",
+    "ID": "CaseHistory",
+    "Label": "History",
+    "FieldType": "CaseHistoryViewer",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/07/2021",
+    "CaseTypeID": "C100",
     "ID": "ApplicantName",
     "Label": "Applicant name",
     "FieldType": "Text",
