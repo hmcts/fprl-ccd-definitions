@@ -7,6 +7,8 @@
     "Description": "Apply for a court order to make arrangements for a child or resolve a dispute about their upbringing",
     "DisplayOrder": 1,
     "PostConditionState": "Created",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "ShowSummary": "Y",
+    "ShowEventNotes": "N"
   }
 ]
