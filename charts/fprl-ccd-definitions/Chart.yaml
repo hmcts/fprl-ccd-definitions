@@ -1,7 +1,7 @@
 apiVersion: v2
 description: Family Private Law - CCD Definitions
 name: fprl-ccd-definitions
-version: 0.0.1
+version: 0.0.2
 dependencies:
   - name: nodejs
     version: ~2.3.4
