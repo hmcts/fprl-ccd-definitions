@@ -18,20 +18,20 @@
     "CaseTypeID": "C100",
     "CaseEventID": "solicitorCreate",
     "UserRole": "caseworker-privatelaw-judge",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "LiveFrom": "01/07/2021",
     "CaseTypeID": "C100",
     "CaseEventID": "solicitorCreate",
     "UserRole": "caseworker-privatelaw-la",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "LiveFrom": "01/07/2021",
     "CaseTypeID": "C100",
     "CaseEventID": "solicitorCreate",
     "UserRole": "caseworker-privatelaw-superuser",
-    "CRUD": "CRU"
+    "CRUD": "R"
   }
 ]
