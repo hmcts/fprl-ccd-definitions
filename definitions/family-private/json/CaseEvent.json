@@ -18,7 +18,7 @@
     "Name": "Select application type",
     "Description": "Select application type",
     "DisplayOrder": 2,
-    "PreConditionState": "AWAITING_SUBMISSION_TO_HMCTS",
+    "PreConditionState(s)": "AWAITING_SUBMISSION_TO_HMCTS",
     "PostConditionState": "AWAITING_SUBMISSION_TO_HMCTS",
     "SecurityClassification": "Public",
     "ShowSummary": "Y",

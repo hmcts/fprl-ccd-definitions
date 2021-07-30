@@ -3,24 +3,28 @@
     "LiveFrom": "01/08/2021",
     "ID": "fixedlist-orderType",
     "ListElementCode": "childArrangementsOrder",
-    "ListElement": "Child Arrangements Order"
+    "ListElement": "Child Arrangements Order",
+    "DisplayOrder": 1
   },
   {
     "LiveFrom": "01/08/2021",
     "ID": "fixedlist-orderType",
     "ListElementCode": "prohibitedStepsOrder",
-    "ListElement": "Prohibited Steps Order"
+    "ListElement": "Prohibited Steps Order",
+    "DisplayOrder": 2
   },
   {
     "LiveFrom": "01/08/2021",
     "ID": "fixedlist-orderType",
     "ListElementCode": "specificIssueOrder",
-    "ListElement": "Specific Issue Order"
+    "ListElement": "Specific Issue Order",
+    "DisplayOrder": 3
   },
   {
     "LiveFrom": "01/08/2021",
     "ID": "fixedlist-orderType",
     "ListElementCode": "consentOrder",
-    "ListElement": "Consent Order"
+    "ListElement": "Consent Order",
+    "DisplayOrder": 4
   }
 ]
