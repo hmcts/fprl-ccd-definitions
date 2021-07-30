@@ -29,8 +29,7 @@
     "ID": "OrdersApplyingFor",
     "Label": "What order(s) are you applying for?",
     "FieldType": "MultiSelectList",
-    "FieldTypeParameter": "fixedlist-orderType",
-    "Min": "1",
+    "FieldTypeParameter": "orderTypeEnum",
     "SecurityClassification": "Public"
   }
 ]
