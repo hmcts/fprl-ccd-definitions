@@ -1,0 +1,26 @@
+[
+  {
+    "LiveFrom": "01/08/2021",
+    "ID": "fixedlist-orderType",
+    "ListElementCode": "childArrangementsOrder",
+    "ListElement": "Child Arrangements Order"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "ID": "fixedlist-orderType",
+    "ListElementCode": "prohibitedStepsOrder",
+    "ListElement": "Prohibited Steps Order"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "ID": "fixedlist-orderType",
+    "ListElementCode": "specificIssueOrder",
+    "ListElement": "Specific Issue Order"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "ID": "fixedlist-orderType",
+    "ListElementCode": "consentOrder",
+    "ListElement": "Consent Order"
+  }
+]

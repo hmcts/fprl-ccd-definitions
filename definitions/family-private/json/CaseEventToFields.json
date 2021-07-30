@@ -16,5 +16,15 @@
     "DisplayContext": "MANDATORY",
     "PageID": 1,
     "PageDisplayOrder": 1
+  },
+  {
+    "LiveFrom": "01/07/2021",
+    "CaseTypeID": "C100",
+    "CaseEventID": "selectApplicationType",
+    "CaseFieldID": "OrdersApplyingFor",
+    "DisplayContext": "MANDATORY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 1
   }
 ]
