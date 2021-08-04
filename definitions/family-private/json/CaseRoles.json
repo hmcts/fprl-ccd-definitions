@@ -1,0 +1,16 @@
+[
+  {
+    "LiveFrom": "04/08/2021",
+    "CaseTypeID": "C100",
+    "ID": "[APPLICANT_SOLICITOR]",
+    "Name": "Petitioner's Solicitor",
+    "Description": "Role to isolate events available for Applicant's Solicitor"
+  },
+  {
+    "LiveFrom": "04/08/2021",
+    "CaseTypeID": "C100",
+    "ID": "[RESPONDENT_SOLICITOR]",
+    "Name": "Respondent's Solicitor",
+    "Description": "Role to isolate events available for Respondent's Solicitor"
+  }
+]
