@@ -26,5 +26,27 @@
     "PageID": 1,
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 1
+  },
+  {
+    "LiveFrom": "01/07/2021",
+    "CaseTypeID": "C100",
+    "CaseEventID": "selectApplicationType",
+    "CaseFieldID": "ParaConsentOrderNotification",
+    "DisplayContext": "READONLY",
+    "FieldShowCondition": "OrdersApplyingFor CONTAINS \"consentOrder\"",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 2
+  },
+  {
+    "LiveFrom": "01/07/2021",
+    "CaseTypeID": "C100",
+    "CaseEventID": "selectApplicationType",
+    "CaseFieldID": "NatureOfOrder",
+    "DisplayContext": "MANDATORY",
+    "FieldShowCondition": "OrdersApplyingFor!=\"\"",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 3
   }
 ]

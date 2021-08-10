@@ -41,9 +41,6 @@
     "UserRole": "caseworker-privatelaw-solicitor",
     "CRUD": "CRU"
   },
-
-
-
   {
     "LiveFrom": "01/08/2021",
     "CaseTypeID": "C100",
@@ -76,6 +73,41 @@
     "LiveFrom": "01/08/2021",
     "CaseTypeID": "C100",
     "CaseFieldID": "OrdersApplyingFor",
+    "UserRole": "caseworker-privatelaw-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "NatureOfOrder",
+    "UserRole": "caseworker-privatelaw-courtadmin",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "NatureOfOrder",
+    "UserRole": "caseworker-privatelaw-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "NatureOfOrder",
+    "UserRole": "caseworker-privatelaw-judge",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "NatureOfOrder",
+    "UserRole": "caseworker-privatelaw-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "NatureOfOrder",
     "UserRole": "caseworker-privatelaw-superuser",
     "CRUD": "R"
   }
