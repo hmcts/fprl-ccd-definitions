@@ -2,7 +2,7 @@
   {
     "LiveFrom": "01/08/2021",
     "CaseTypeID": "C100",
-    "ID": "selectApplicationType",
+    "ID": "selectApplicationType-ApplicationConsideredInDaysAndHours",
     "CaseEventID": "selectApplicationType",
     "CaseFieldID": "ApplicationConsideredInDaysAndHours",
     "ListElementCode": "days",
@@ -12,7 +12,7 @@
   {
     "LiveFrom": "01/08/2021",
     "CaseTypeID": "C100",
-    "ID": "selectApplicationType2",
+    "ID": "selectApplicationType-ApplicationConsideredInDaysAndHours",
     "CaseEventID": "selectApplicationType",
     "CaseFieldID": "ApplicationConsideredInDaysAndHours",
     "ListElementCode": "hours",
