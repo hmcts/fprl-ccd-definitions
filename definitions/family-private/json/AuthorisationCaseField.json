@@ -40,5 +40,34 @@
     "CaseFieldID": "ChildName",
     "UserRole": "caseworker-privatelaw-solicitor",
     "CRUD": "CRU"
+  },
+
+  {
+    "LiveFrom": "11/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "LabelApplicants",
+    "UserRole": "caseworker-privatelaw-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "11/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "LabelMiamAttandance",
+    "UserRole": "caseworker-privatelaw-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "11/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "MediatorConfirmedThatYouDoNotNeedToAttendMiam",
+    "UserRole": "caseworker-privatelaw-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "11/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ApplicantHasValidReasonForNotAttendingMiam",
+    "UserRole": "caseworker-privatelaw-solicitor",
+    "CRUD": "CRU"
   }
 ]
