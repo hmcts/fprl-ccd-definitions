@@ -6,7 +6,8 @@
     "CaseFieldID": "ApplicantName",
     "DisplayContext": "MANDATORY",
     "PageID": 1,
-    "PageDisplayOrder": 1
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Yes"
   },
   {
     "LiveFrom": "01/07/2021",
@@ -15,20 +16,22 @@
     "CaseFieldID": "ChildName",
     "DisplayContext": "MANDATORY",
     "PageID": 1,
-    "PageDisplayOrder": 1
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Yes"
   },
   {
-    "LiveFrom": "01/07/2021",
+    "LiveFrom": "01/08/2021",
     "CaseTypeID": "C100",
     "CaseEventID": "selectApplicationType",
     "CaseFieldID": "OrdersApplyingFor",
     "DisplayContext": "MANDATORY",
     "PageID": 1,
     "PageDisplayOrder": 1,
-    "PageFieldDisplayOrder": 1
+    "PageFieldDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Yes"
   },
   {
-    "LiveFrom": "01/07/2021",
+    "LiveFrom": "01/08/2021",
     "CaseTypeID": "C100",
     "CaseEventID": "selectApplicationType",
     "CaseFieldID": "ParaConsentOrderNotification",
@@ -39,7 +42,7 @@
     "PageFieldDisplayOrder": 2
   },
   {
-    "LiveFrom": "01/07/2021",
+    "LiveFrom": "01/08/2021",
     "CaseTypeID": "C100",
     "CaseEventID": "selectApplicationType",
     "CaseFieldID": "NatureOfOrder",
@@ -47,6 +50,220 @@
     "FieldShowCondition": "OrdersApplyingFor!=\"\"",
     "PageID": 1,
     "PageDisplayOrder": 1,
-    "PageFieldDisplayOrder": 3
+    "PageFieldDisplayOrder": 3,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseEventID": "selectApplicationType",
+    "CaseFieldID": "ParaWhyMakingApplication",
+    "DisplayContext": "READONLY",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 1
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseEventID": "selectApplicationType",
+    "CaseFieldID": "ApplicationPermissionRequired",
+    "DisplayContext": "MANDATORY",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 2,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseEventID": "selectApplicationType",
+    "CaseFieldID": "ApplicationPermissionRequiredReason",
+    "DisplayContext": "MANDATORY",
+    "FieldShowCondition": "ApplicationPermissionRequired=\"yes\" OR ApplicationPermissionRequired=\"noNowSought\"",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 3,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseEventID": "selectApplicationType",
+    "CaseFieldID": "ParaWhyMakingApplication2",
+    "DisplayContext": "READONLY",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 1
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseEventID": "selectApplicationType",
+    "CaseFieldID": "ParaApplicationDetails",
+    "DisplayContext": "READONLY",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 2
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseEventID": "selectApplicationType",
+    "CaseFieldID": "ApplicationDetails",
+    "DisplayContext": "MANDATORY",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 3,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseEventID": "selectApplicationType",
+    "CaseFieldID": "ParaApplicationUrgent",
+    "DisplayContext": "READONLY",
+    "PageID": 4,
+    "PageDisplayOrder": 4,
+    "PageFieldDisplayOrder": 1
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseEventID": "selectApplicationType",
+    "CaseFieldID": "IsApplicationUrgent",
+    "DisplayContext": "MANDATORY",
+    "PageID": 4,
+    "PageDisplayOrder": 4,
+    "PageFieldDisplayOrder": 2,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseEventID": "selectApplicationType",
+    "CaseFieldID": "ApplicationUrgencyOrders",
+    "DisplayContext": "MANDATORY",
+    "FieldShowCondition": "IsApplicationUrgent=\"Yes\"",
+    "PageID": 4,
+    "PageDisplayOrder": 4,
+    "PageFieldDisplayOrder": 3,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseEventID": "selectApplicationType",
+    "CaseFieldID": "ApplicationReasonsForUrgency",
+    "DisplayContext": "MANDATORY",
+    "FieldShowCondition": "IsApplicationUrgent=\"Yes\"",
+    "PageID": 4,
+    "PageDisplayOrder": 4,
+    "PageFieldDisplayOrder": 4,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseEventID": "selectApplicationType",
+    "CaseFieldID": "ParaReasonsForUrgencyTimetable",
+    "DisplayContext": "READONLY",
+    "FieldShowCondition": "IsApplicationUrgent=\"Yes\"",
+    "PageID": 4,
+    "PageDisplayOrder": 4,
+    "PageFieldDisplayOrder": 5
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseEventID": "selectApplicationType",
+    "CaseFieldID": "ApplicationConsideredInDaysAndHours",
+    "DisplayContext": "COMPLEX",
+    "FieldShowCondition": "IsApplicationUrgent=\"Yes\"",
+    "PageID": 4,
+    "PageDisplayOrder": 4,
+    "PageFieldDisplayOrder": 6,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseEventID": "selectApplicationType",
+    "CaseFieldID": "ApplicationNoticeEfforts",
+    "DisplayContext": "OPTIONAL",
+    "FieldShowCondition": "IsApplicationUrgent=\"Yes\"",
+    "PageID": 4,
+    "PageDisplayOrder": 4,
+    "PageFieldDisplayOrder": 7,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseEventID": "selectApplicationType",
+    "CaseFieldID": "IsApplicationConsideredWithoutNotice",
+    "DisplayContext": "MANDATORY",
+    "PageID": 4,
+    "PageDisplayOrder": 4,
+    "PageFieldDisplayOrder": 8,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseEventID": "selectApplicationType",
+    "CaseFieldID": "ApplicationWithoutNoticeReasons",
+    "DisplayContext": "MANDATORY",
+    "FieldShowCondition": "IsApplicationConsideredWithoutNotice=\"Yes\"",
+    "PageID": 4,
+    "PageDisplayOrder": 4,
+    "PageFieldDisplayOrder": 9,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseEventID": "selectApplicationType",
+    "CaseFieldID": "IsHearingWithoutNoticeRequiredNotPossible",
+    "DisplayContext": "MANDATORY",
+    "PageID": 4,
+    "PageDisplayOrder": 4,
+    "PageFieldDisplayOrder": 10,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseEventID": "selectApplicationType",
+    "CaseFieldID": "ApplicationWithoutNoticeNotPossibleReasons",
+    "DisplayContext": "MANDATORY",
+    "FieldShowCondition": "IsHearingWithoutNoticeRequiredNotPossible=\"Yes\"",
+    "PageID": 4,
+    "PageDisplayOrder": 4,
+    "PageFieldDisplayOrder": 11,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseEventID": "selectApplicationType",
+    "CaseFieldID": "IsHearingWithoutNoticeRequiredRespondentWillFrustrate",
+    "DisplayContext": "MANDATORY",
+    "PageID": 4,
+    "PageDisplayOrder": 4,
+    "PageFieldDisplayOrder": 12,
+    "ShowSummaryChangeOption": "Yes"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseEventID": "selectApplicationType",
+    "CaseFieldID": "ApplicationWithoutNoticeRespondentWillFrustrateReasons",
+    "DisplayContext": "MANDATORY",
+    "FieldShowCondition": "IsHearingWithoutNoticeRequiredRespondentWillFrustrate=\"Yes\"",
+    "PageID": 4,
+    "PageDisplayOrder": 4,
+    "PageFieldDisplayOrder": 13,
+    "ShowSummaryChangeOption": "Yes"
   }
 ]

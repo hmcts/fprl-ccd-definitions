@@ -15,7 +15,7 @@
     "LiveFrom": "01/08/2021",
     "CaseTypeID": "C100",
     "ID": "selectApplicationType",
-    "Name": "Select application type",
+    "Name": "Type of application",
     "Description": "Select application type",
     "DisplayOrder": 2,
     "PreConditionState(s)": "AWAITING_SUBMISSION_TO_HMCTS",

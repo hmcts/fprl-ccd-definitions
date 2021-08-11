@@ -1,0 +1,22 @@
+[
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "ID": "selectApplicationType",
+    "CaseEventID": "selectApplicationType",
+    "CaseFieldID": "ApplicationConsideredInDaysAndHours",
+    "ListElementCode": "days",
+    "DefaultValue": "0",
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "ID": "selectApplicationType2",
+    "CaseEventID": "selectApplicationType",
+    "CaseFieldID": "ApplicationConsideredInDaysAndHours",
+    "ListElementCode": "hours",
+    "DefaultValue": "0",
+    "DisplayContext": "MANDATORY"
+  }
+]
