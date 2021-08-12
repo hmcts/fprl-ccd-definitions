@@ -22,7 +22,7 @@
     "CaseTypeID": "C100",
     "CaseEventID": "peopleInTheCase",
     "CaseFieldID": "LabelApplicants",
-    "DisplayContext": "MANDATORY",
+    "DisplayContext": "READONLY",
     "PageID": "peopleInTheCase-1",
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 1
@@ -32,7 +32,7 @@
     "CaseTypeID": "C100",
     "CaseEventID": "peopleInTheCase",
     "CaseFieldID": "LabelMiamAttendance",
-    "DisplayContext": "MANDATORY",
+    "DisplayContext": "READONLY",
     "PageID": "peopleInTheCase-1",
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 2
