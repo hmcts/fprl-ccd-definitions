@@ -77,5 +77,16 @@
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 5,
     "PageShowCondition": "MediatorConfirmedThatYouDoNotNeedToAttendMiam=\"No\""
+  },
+  {
+    "LiveFrom": "11/08/2021",
+    "CaseTypeID": "C100",
+    "CaseEventID": "peopleInTheCase",
+    "CaseFieldID": "ReasonForNotAttendingMiam",
+    "DisplayContext": "MANDATORY",
+    "PageID": "peopleInTheCase-1",
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 6,
+    "PageShowCondition": "ApplicantHasValidReasonForNotAttendingMiam=\"Yes\""
   }
 ]
