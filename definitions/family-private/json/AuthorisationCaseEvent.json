@@ -68,6 +68,5 @@
     "CaseEventID": "peopleInTheCase",
     "UserRole": "caseworker-privatelaw-superuser",
     "CRUD": "R"
-  },
-
+  }
 ]
