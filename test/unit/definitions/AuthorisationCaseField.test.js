@@ -2,7 +2,7 @@ const { expect } = require('chai');
 const { uniqWith } = require('lodash');
 const { isFieldDuplicated } = require('../utils/utils');
 const { createAssertExists } = require('../utils/assertBuilders');
-const { data } = require('../utils/dataProvider');
+const { ccdData } = require('../utils/dataProvider');
 
 const assertFieldExists = createAssertExists('Field');
 
@@ -12,8 +12,8 @@ describe('AuthorisationCaseField', () => {
     let allFieldsForNonProd = [];
 
     before(() => {
-      nonProdAuthorisationCaseField = data.AuthorisationCaseField;
-      allFieldsForNonProd = data.CaseField;
+      nonProdAuthorisationCaseField = ccdData.AuthorisationCaseField;
+      allFieldsForNonProd = ccdData.CaseField;
     });
 
     it('contain a unique case field ID, case type ID and role (no duplicates)', () => {

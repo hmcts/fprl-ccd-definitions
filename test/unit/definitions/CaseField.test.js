@@ -6,7 +6,7 @@ const {
   isNotLongerThan,
   noDuplicateFound
 } = require('../utils/utils');
-const { data } = require('../utils/dataProvider');
+const { ccdData } = require('../utils/dataProvider');
 
 function assertFieldDefinitionIsValid(row) {
   expect(row.CaseTypeID).to.be.a('string').and.satisfy(v => {
@@ -28,7 +28,7 @@ describe('CaseField', () => {
     let uniqResult = [];
 
     before(() => {
-      nonProd = data.CaseField;
+      nonProd = ccdData.CaseField;
       uniqResult = uniqWith(nonProd, noDuplicateFound);
     });
 

@@ -9,7 +9,7 @@ def yarnBuilder = new uk.gov.hmcts.contino.YarnBuilder(this)
 
 def secrets = [
         's2s-${env}'      : [
-                secret('microservicekey-ccd-data', 'DATA_STORE_S2S_KEY'),
+                secret('microservicekey-ccd-ccdData', 'DATA_STORE_S2S_KEY'),
                 secret('microservicekey-ccd-definition', 'DEFINITION_STORE_S2S_KEY'),
                 secret('microservicekey-ccd-gw', 'API_GATEWAY_S2S_KEY'),
                 secret('microservicekey-ccd-ps', 'PRINT_S2S_KEY'),
@@ -55,7 +55,7 @@ withPipeline("nodejs", product, component) {
 
     steps.archiveArtifacts allowEmptyArchive: true, artifacts: 'definitions/**/xlsx/*.xlsx'
     env.CCD_ADMIN_URL="https://admin-web-fprl-ccd-definitions-pr-${CHANGE_ID}.service.core-compute-preview.internal"
-    env.CCD_DATA_API_URL="http://ccd-data-store-api-fprl-ccd-definitions-pr-${CHANGE_ID}.service.core-compute-preview.internal"
+    env.CCD_DATA_API_URL="http://ccd-ccdData-store-api-fprl-ccd-definitions-pr-${CHANGE_ID}.service.core-compute-preview.internal"
     env.CCD_WEB_URL="https://case-management-web-fprl-ccd-definitions-pr-${CHANGE_ID}.service.core-compute-preview.internal"
     env.CCD_FILE_NAME="ccd-config-aat-${GIT_COMMIT}.xlsx"
   }
@@ -73,7 +73,7 @@ withPipeline("nodejs", product, component) {
 
     steps.archiveArtifacts allowEmptyArchive: true, artifacts: 'definitions/**/xlsx/*.xlsx'
     env.CCD_ADMIN_URL="https://ccd-admin-web.aat.platform.hmcts.net"
-    env.CCD_DATA_API_URL="http://ccd-data-store-api-aat.service.core-compute-aat.internal"
+    env.CCD_DATA_API_URL="http://ccd-ccdData-store-api-aat.service.core-compute-aat.internal"
     env.CCD_WEB_URL="https://manage-case.aat.platform.hmcts.net"
     env.XUI_ORG_WEB_URL="https://manage-org.aat.platform.hmcts.net"
     env.CCD_FILE_NAME="ccd-config-aat-${GIT_COMMIT}.xlsx"

@@ -1,15 +1,14 @@
 const load = require;
 
-const loadFile = (file) => {
-
-  console.log(`definitions/divorce/json/${file}.json`)
+const loadFile = file => {
+  console.log(`definitions/divorce/json/${file}.json`);
 
   return Object.assign(load(`../../../definitions/family-private/json/${file}.json`), []);
 };
 
 module.exports = {
-  data: {
-    AuthorisationCaseEvent: Object.assign(load('definitions/family-private/json/AuthorisationCaseEvent'), []), //loadFile('AuthorisationCaseEvent'),
+  ccdData: {
+    AuthorisationCaseEvent: loadFile('AuthorisationCaseEvent'),
     AuthorisationCaseField: loadFile('AuthorisationCaseField'),
     AuthorisationCaseState: loadFile('AuthorisationCaseState'),
     AuthorisationCaseType: loadFile('AuthorisationCaseType'),
@@ -19,7 +18,6 @@ module.exports = {
     CaseRoles: loadFile('CaseRoles'),
     CaseType: loadFile('CaseType'),
     CaseTypeTab: loadFile('CaseTypeTab'),
-    // ComplexTypes: loadFile('ComplexTypes'),
     FixedLists: loadFile('FixedLists'),
     Jurisdiction: loadFile('Jurisdiction'),
     SearchInputFields: loadFile('SearchInputFields'),
