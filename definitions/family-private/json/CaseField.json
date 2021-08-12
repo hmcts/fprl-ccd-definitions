@@ -34,7 +34,7 @@
   {
     "LiveFrom": "11/08/2021",
     "CaseTypeID": "C100",
-    "ID": "LabelMiamAttandance",
+    "ID": "LabelMiamAttendance",
     "Label": "MIAM Attendance",
     "FieldType": "Label",
     "SecurityClassification": "Public"
