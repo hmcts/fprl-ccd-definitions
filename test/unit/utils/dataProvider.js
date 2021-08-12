@@ -1,8 +1,6 @@
 const load = require;
 
 const loadFile = file => {
-  console.log(`definitions/divorce/json/${file}.json`);
-
   return Object.assign(load(`../../../definitions/family-private/json/${file}.json`), []);
 };
 

@@ -41,21 +41,6 @@
     "UserRole": "caseworker-privatelaw-solicitor",
     "CRUD": "CRU"
   },
-
-  {
-    "LiveFrom": "11/08/2021",
-    "CaseTypeID": "C100",
-    "CaseFieldID": "LabelApplicants",
-    "UserRole": "caseworker-privatelaw-solicitor",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "11/08/2021",
-    "CaseTypeID": "C100",
-    "CaseFieldID": "LabelMiamAttendance",
-    "UserRole": "caseworker-privatelaw-solicitor",
-    "CRUD": "CRU"
-  },
   {
     "LiveFrom": "11/08/2021",
     "CaseTypeID": "C100",
@@ -67,6 +52,13 @@
     "LiveFrom": "11/08/2021",
     "CaseTypeID": "C100",
     "CaseFieldID": "ApplicantHasValidReasonForNotAttendingMiam",
+    "UserRole": "caseworker-privatelaw-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "11/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ReasonForNotAttendingMiam",
     "UserRole": "caseworker-privatelaw-solicitor",
     "CRUD": "CRU"
   }
