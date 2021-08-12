@@ -18,5 +18,5 @@ Scenario('add all the roles @pipeline', I => {
 Scenario('upload Family Private Law Config file @pipeline', I => {
   I.loginToAdminConsole();
   I.uploadConfig(`../../definitions/family-private/xlsx/${process.env.CCD_FILE_NAME}`);
-  I.see('Case Definition ccdData successfully imported');
+  I.see('Case Definition data successfully imported');
 }).retry({ retries: 3, minTimeout: 30000 }); // eslint-disable-line no-magic-numbers
