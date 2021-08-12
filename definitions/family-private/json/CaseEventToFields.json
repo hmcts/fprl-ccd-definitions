@@ -25,7 +25,8 @@
     "DisplayContext": "READONLY",
     "PageID": "peopleInTheCase-1",
     "PageDisplayOrder": 1,
-    "PageFieldDisplayOrder": 1
+    "PageFieldDisplayOrder": 1,
+    "PageShowCondition": "LabelMiamAttendance!=\"\""
   },
   {
     "LiveFrom": "11/08/2021",
