@@ -52,7 +52,7 @@
   {
     "LiveFrom": "11/08/2021",
     "CaseTypeID": "C100",
-    "CaseFieldID": "LabelMiamAttandance",
+    "CaseFieldID": "LabelMiamAttendance",
     "UserRole": "caseworker-privatelaw-solicitor",
     "CRUD": "CRU"
   },
