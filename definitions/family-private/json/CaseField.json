@@ -42,8 +42,16 @@
   {
     "LiveFrom": "11/08/2021",
     "CaseTypeID": "C100",
+    "ID": "ClientAttendedMiam",
+    "Label": "Has the client attended a MIAM?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "11/08/2021",
+    "CaseTypeID": "C100",
     "ID": "MediatorConfirmedThatYouDoNotNeedToAttendMiam",
-    "Label": "Has a mediator confirmed that you do not need to attenda MIAM?",
+    "Label": "Has a mediator confirmed that you do not need to attend a MIAM?",
     "FieldType": "YesOrNo",
     "SecurityClassification": "Public"
   },
