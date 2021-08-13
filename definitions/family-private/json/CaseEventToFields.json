@@ -25,8 +25,7 @@
     "DisplayContext": "READONLY",
     "PageID": "peopleInTheCase-1",
     "PageDisplayOrder": 1,
-    "PageFieldDisplayOrder": 1,
-    "PageShowCondition": "LabelMiamAttendance!=\"\""
+    "PageFieldDisplayOrder": 1
   },
   {
     "LiveFrom": "11/08/2021",
@@ -67,7 +66,7 @@
     "PageID": "peopleInTheCase-1",
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 5,
-    "PageShowCondition": "MediatorConfirmedThatYouDoNotNeedToAttendMiam=\"No\""
+    "FieldShowCondition": "MediatorConfirmedThatYouDoNotNeedToAttendMiam=\"No\""
   },
   {
     "LiveFrom": "11/08/2021",
@@ -78,6 +77,6 @@
     "PageID": "peopleInTheCase-1",
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 6,
-    "PageShowCondition": "ApplicantHasValidReasonForNotAttendingMiam=\"Yes\""
+    "FieldShowCondition": "ApplicantHasValidReasonForNotAttendingMiam=\"Yes\""
   }
 ]
