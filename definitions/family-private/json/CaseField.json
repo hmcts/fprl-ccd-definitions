@@ -200,5 +200,150 @@
     "Label": "Set out the reasons below",
     "FieldType": "TextArea",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "ID": "DomesticAbuse",
+    "Label": "Any form of domestic abuse?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "ID": "ChildAbduction",
+    "Label": "Child abduction?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "ID": "ChildAbuse",
+    "Label": "Child abuse?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "ID": "DrugsAlcoholSubstanceAbuse",
+    "Label": "Drugs, alcohol or substance abuse?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "ID": "SafetyWelfareConcerns",
+    "Label": "Other safety or welfare concerns?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "ID": "ParaChildAbduction",
+    "Label": "### Child abduction",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "ID": "ChildAtRiskOfAbduction",
+    "Label": "Are the children at risk of abduction?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "ID": "PoliceNotified",
+    "Label": "Have the police been notified?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "ID": "ChildHasPassport",
+    "Label": "Have the police been notified?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "ID": "ChildAbductedBefore",
+    "Label": "Have the children been abducted or kept outside the UK without your consent before?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "ID": "ChildHasMultiplePassports",
+    "Label": "Do the children have more than one passport?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "ID": "ChildPassportPossession",
+    "Label": "What order(s) are you applying for?",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "PassportPossessionEnum",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "ID": "ChildPassportPossessionOtherDetails",
+    "Label": "Give details of the other person",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "ID": "ChildAbductionDetails",
+    "Label": "Provide details of previous abductions",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "ID": "AbductionPoliceInvolved",
+    "Label": "Were the police, private investigators or any organisation involved?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "ID": "AbductionPoliceInvolvedDetails",
+    "Label": "Provide more details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "ID": "ChildAtRiskOfAbductionReason",
+    "Label": "Why do you think the children may be abducted or kept outside the UK without the Applicant's consent?",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "ID": "ChildWhereabouts",
+    "Label": "Where are the children now?",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
   }
 ]
