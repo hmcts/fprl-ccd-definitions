@@ -457,7 +457,7 @@
     "CaseEventID": "safeguardingAndRiskOfHarm",
     "CaseFieldID": "ChildPassportPossessionOtherDetails",
     "DisplayContext": "MANDATORY",
-    "FieldShowCondition": "ChildHasPassport=\"Yes\" AND ChildPassportPossession CONTAINS \"other\"",
+    "FieldShowCondition": "ChildHasPassport=\"Yes\" AND ChildPassportPossession CONTAINS \"other-person\"",
     "PageID": 2,
     "PageDisplayOrder": 2,
     "PageFieldDisplayOrder": 7,

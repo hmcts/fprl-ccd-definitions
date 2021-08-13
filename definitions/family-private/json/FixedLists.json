@@ -101,7 +101,7 @@
   {
     "LiveFrom": "01/08/2021",
     "ID": "PassportPossessionEnum",
-    "ListElementCode": "other",
+    "ListElementCode": "other-person",
     "ListElement": "Other",
     "DisplayOrder": 3
   }

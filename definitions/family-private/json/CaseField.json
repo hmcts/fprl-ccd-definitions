@@ -319,7 +319,7 @@
     "LiveFrom": "01/08/2021",
     "CaseTypeID": "C100",
     "ID": "ChildHasPassport",
-    "Label": "Have the police been notified?",
+    "Label": "Do any of the children have a passport?",
     "FieldType": "YesOrNo",
     "SecurityClassification": "Public"
   },
@@ -343,7 +343,7 @@
     "LiveFrom": "01/08/2021",
     "CaseTypeID": "C100",
     "ID": "ChildPassportPossession",
-    "Label": "What order(s) are you applying for?",
+    "Label": "Who is in possession of the children's passports?",
     "FieldType": "MultiSelectList",
     "FieldTypeParameter": "PassportPossessionEnum",
     "SecurityClassification": "Public"
