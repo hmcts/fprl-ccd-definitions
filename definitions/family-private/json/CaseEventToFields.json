@@ -16,7 +16,8 @@
     "CaseFieldID": "ChildName",
     "DisplayContext": "MANDATORY",
     "PageID": 1,
-    "PageDisplayOrder": 1
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Yes"
   },
   {
     "LiveFrom": "11/08/2021",
@@ -456,7 +457,7 @@
     "CaseEventID": "safeguardingAndRiskOfHarm",
     "CaseFieldID": "ChildPassportPossessionOtherDetails",
     "DisplayContext": "MANDATORY",
-    "FieldShowCondition": "ChildHasPassport=\"Yes\" AND ChildPassportPossession=\"other\"",
+    "FieldShowCondition": "ChildHasPassport=\"Yes\" AND ChildPassportPossession CONTAINS \"other\"",
     "PageID": 2,
     "PageDisplayOrder": 2,
     "PageFieldDisplayOrder": 7,
