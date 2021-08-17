@@ -1216,5 +1216,950 @@
     "CaseFieldID": "ChildWhereabouts",
     "UserRole": "caseworker-privatelaw-superuser",
     "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbuseSexually",
+    "UserRole": "caseworker-privatelaw-courtadmin",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbuseSexually",
+    "UserRole": "caseworker-privatelaw-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbuseSexually",
+    "UserRole": "caseworker-privatelaw-judge",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbuseSexually",
+    "UserRole": "caseworker-privatelaw-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbuseSexually",
+    "UserRole": "caseworker-privatelaw-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbuseSexuallyDetails",
+    "UserRole": "caseworker-privatelaw-courtadmin",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbuseSexuallyDetails",
+    "UserRole": "caseworker-privatelaw-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbuseSexuallyDetails",
+    "UserRole": "caseworker-privatelaw-judge",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbuseSexuallyDetails",
+    "UserRole": "caseworker-privatelaw-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbuseSexuallyDetails",
+    "UserRole": "caseworker-privatelaw-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbuseSexuallyStartDate",
+    "UserRole": "caseworker-privatelaw-courtadmin",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbuseSexuallyStartDate",
+    "UserRole": "caseworker-privatelaw-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbuseSexuallyStartDate",
+    "UserRole": "caseworker-privatelaw-judge",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbuseSexuallyStartDate",
+    "UserRole": "caseworker-privatelaw-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbuseSexuallyStartDate",
+    "UserRole": "caseworker-privatelaw-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbuseSexuallyOngoing",
+    "UserRole": "caseworker-privatelaw-courtadmin",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbuseSexuallyOngoing",
+    "UserRole": "caseworker-privatelaw-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbuseSexuallyOngoing",
+    "UserRole": "caseworker-privatelaw-judge",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbuseSexuallyOngoing",
+    "UserRole": "caseworker-privatelaw-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbuseSexuallyOngoing",
+    "UserRole": "caseworker-privatelaw-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbuseSexuallyHelpSought",
+    "UserRole": "caseworker-privatelaw-courtadmin",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbuseSexuallyHelpSought",
+    "UserRole": "caseworker-privatelaw-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbuseSexuallyHelpSought",
+    "UserRole": "caseworker-privatelaw-judge",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbuseSexuallyHelpSought",
+    "UserRole": "caseworker-privatelaw-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbuseSexuallyHelpSought",
+    "UserRole": "caseworker-privatelaw-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbusePhysically",
+    "UserRole": "caseworker-privatelaw-courtadmin",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbusePhysically",
+    "UserRole": "caseworker-privatelaw-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbusePhysically",
+    "UserRole": "caseworker-privatelaw-judge",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbusePhysically",
+    "UserRole": "caseworker-privatelaw-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbusePhysically",
+    "UserRole": "caseworker-privatelaw-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbusePhysicallyDetails",
+    "UserRole": "caseworker-privatelaw-courtadmin",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbusePhysicallyDetails",
+    "UserRole": "caseworker-privatelaw-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbusePhysicallyDetails",
+    "UserRole": "caseworker-privatelaw-judge",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbusePhysicallyDetails",
+    "UserRole": "caseworker-privatelaw-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbusePhysicallyDetails",
+    "UserRole": "caseworker-privatelaw-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbusePhysicallyStartDate",
+    "UserRole": "caseworker-privatelaw-courtadmin",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbusePhysicallyStartDate",
+    "UserRole": "caseworker-privatelaw-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbusePhysicallyStartDate",
+    "UserRole": "caseworker-privatelaw-judge",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbusePhysicallyStartDate",
+    "UserRole": "caseworker-privatelaw-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbusePhysicallyStartDate",
+    "UserRole": "caseworker-privatelaw-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbusePhysicallyOngoing",
+    "UserRole": "caseworker-privatelaw-courtadmin",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbusePhysicallyOngoing",
+    "UserRole": "caseworker-privatelaw-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbusePhysicallyOngoing",
+    "UserRole": "caseworker-privatelaw-judge",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbusePhysicallyOngoing",
+    "UserRole": "caseworker-privatelaw-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbusePhysicallyOngoing",
+    "UserRole": "caseworker-privatelaw-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbusePhysicallyHelpSought",
+    "UserRole": "caseworker-privatelaw-courtadmin",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbusePhysicallyHelpSought",
+    "UserRole": "caseworker-privatelaw-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbusePhysicallyHelpSought",
+    "UserRole": "caseworker-privatelaw-judge",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbusePhysicallyHelpSought",
+    "UserRole": "caseworker-privatelaw-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbusePhysicallyHelpSought",
+    "UserRole": "caseworker-privatelaw-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbuseFinancially",
+    "UserRole": "caseworker-privatelaw-courtadmin",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbuseFinancially",
+    "UserRole": "caseworker-privatelaw-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbuseFinancially",
+    "UserRole": "caseworker-privatelaw-judge",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbuseFinancially",
+    "UserRole": "caseworker-privatelaw-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbuseFinancially",
+    "UserRole": "caseworker-privatelaw-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbuseFinanciallyDetails",
+    "UserRole": "caseworker-privatelaw-courtadmin",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbuseFinanciallyDetails",
+    "UserRole": "caseworker-privatelaw-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbuseFinanciallyDetails",
+    "UserRole": "caseworker-privatelaw-judge",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbuseFinanciallyDetails",
+    "UserRole": "caseworker-privatelaw-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbuseFinanciallyDetails",
+    "UserRole": "caseworker-privatelaw-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbuseFinanciallyStartDate",
+    "UserRole": "caseworker-privatelaw-courtadmin",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbuseFinanciallyStartDate",
+    "UserRole": "caseworker-privatelaw-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbuseFinanciallyStartDate",
+    "UserRole": "caseworker-privatelaw-judge",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbuseFinanciallyStartDate",
+    "UserRole": "caseworker-privatelaw-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbuseFinanciallyStartDate",
+    "UserRole": "caseworker-privatelaw-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbuseFinanciallyOngoing",
+    "UserRole": "caseworker-privatelaw-courtadmin",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbuseFinanciallyOngoing",
+    "UserRole": "caseworker-privatelaw-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbuseFinanciallyOngoing",
+    "UserRole": "caseworker-privatelaw-judge",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbuseFinanciallyOngoing",
+    "UserRole": "caseworker-privatelaw-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbuseFinanciallyOngoing",
+    "UserRole": "caseworker-privatelaw-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbuseFinanciallyHelpSought",
+    "UserRole": "caseworker-privatelaw-courtadmin",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbuseFinanciallyHelpSought",
+    "UserRole": "caseworker-privatelaw-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbuseFinanciallyHelpSought",
+    "UserRole": "caseworker-privatelaw-judge",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbuseFinanciallyHelpSought",
+    "UserRole": "caseworker-privatelaw-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbuseFinanciallyHelpSought",
+    "UserRole": "caseworker-privatelaw-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbuseDomestic",
+    "UserRole": "caseworker-privatelaw-courtadmin",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbuseDomestic",
+    "UserRole": "caseworker-privatelaw-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbuseDomestic",
+    "UserRole": "caseworker-privatelaw-judge",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbuseDomestic",
+    "UserRole": "caseworker-privatelaw-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbuseDomestic",
+    "UserRole": "caseworker-privatelaw-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbuseDomesticDetails",
+    "UserRole": "caseworker-privatelaw-courtadmin",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbuseDomesticDetails",
+    "UserRole": "caseworker-privatelaw-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbuseDomesticDetails",
+    "UserRole": "caseworker-privatelaw-judge",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbuseDomesticDetails",
+    "UserRole": "caseworker-privatelaw-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbuseDomesticDetails",
+    "UserRole": "caseworker-privatelaw-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbuseDomesticStartDate",
+    "UserRole": "caseworker-privatelaw-courtadmin",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbuseDomesticStartDate",
+    "UserRole": "caseworker-privatelaw-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbuseDomesticStartDate",
+    "UserRole": "caseworker-privatelaw-judge",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbuseDomesticStartDate",
+    "UserRole": "caseworker-privatelaw-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbuseDomesticStartDate",
+    "UserRole": "caseworker-privatelaw-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbuseDomesticOngoing",
+    "UserRole": "caseworker-privatelaw-courtadmin",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbuseDomesticOngoing",
+    "UserRole": "caseworker-privatelaw-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbuseDomesticOngoing",
+    "UserRole": "caseworker-privatelaw-judge",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbuseDomesticOngoing",
+    "UserRole": "caseworker-privatelaw-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbuseDomesticOngoing",
+    "UserRole": "caseworker-privatelaw-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbuseDomesticHelpSought",
+    "UserRole": "caseworker-privatelaw-courtadmin",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbuseDomesticHelpSought",
+    "UserRole": "caseworker-privatelaw-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbuseDomesticHelpSought",
+    "UserRole": "caseworker-privatelaw-judge",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbuseDomesticHelpSought",
+    "UserRole": "caseworker-privatelaw-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildAbuseDomesticHelpSought",
+    "UserRole": "caseworker-privatelaw-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildDrugsAlcoholSubstanceAbuse",
+    "UserRole": "caseworker-privatelaw-courtadmin",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildDrugsAlcoholSubstanceAbuse",
+    "UserRole": "caseworker-privatelaw-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildDrugsAlcoholSubstanceAbuse",
+    "UserRole": "caseworker-privatelaw-judge",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildDrugsAlcoholSubstanceAbuse",
+    "UserRole": "caseworker-privatelaw-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildDrugsAlcoholSubstanceAbuse",
+    "UserRole": "caseworker-privatelaw-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildDrugsAlcoholSubstanceAbuseDetails",
+    "UserRole": "caseworker-privatelaw-courtadmin",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildDrugsAlcoholSubstanceAbuseDetails",
+    "UserRole": "caseworker-privatelaw-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildDrugsAlcoholSubstanceAbuseDetails",
+    "UserRole": "caseworker-privatelaw-judge",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildDrugsAlcoholSubstanceAbuseDetails",
+    "UserRole": "caseworker-privatelaw-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildDrugsAlcoholSubstanceAbuseDetails",
+    "UserRole": "caseworker-privatelaw-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildDrugsAlcoholSubstanceAbuseStartDate",
+    "UserRole": "caseworker-privatelaw-courtadmin",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildDrugsAlcoholSubstanceAbuseStartDate",
+    "UserRole": "caseworker-privatelaw-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildDrugsAlcoholSubstanceAbuseStartDate",
+    "UserRole": "caseworker-privatelaw-judge",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildDrugsAlcoholSubstanceAbuseStartDate",
+    "UserRole": "caseworker-privatelaw-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildDrugsAlcoholSubstanceAbuseStartDate",
+    "UserRole": "caseworker-privatelaw-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildDrugsAlcoholSubstanceAbuseOngoing",
+    "UserRole": "caseworker-privatelaw-courtadmin",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildDrugsAlcoholSubstanceAbuseOngoing",
+    "UserRole": "caseworker-privatelaw-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildDrugsAlcoholSubstanceAbuseOngoing",
+    "UserRole": "caseworker-privatelaw-judge",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildDrugsAlcoholSubstanceAbuseOngoing",
+    "UserRole": "caseworker-privatelaw-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildDrugsAlcoholSubstanceAbuseOngoing",
+    "UserRole": "caseworker-privatelaw-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildDrugsAlcoholSubstanceAbuseHelpSought",
+    "UserRole": "caseworker-privatelaw-courtadmin",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildDrugsAlcoholSubstanceAbuseHelpSought",
+    "UserRole": "caseworker-privatelaw-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildDrugsAlcoholSubstanceAbuseHelpSought",
+    "UserRole": "caseworker-privatelaw-judge",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildDrugsAlcoholSubstanceAbuseHelpSought",
+    "UserRole": "caseworker-privatelaw-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ChildDrugsAlcoholSubstanceAbuseHelpSought",
+    "UserRole": "caseworker-privatelaw-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "OtherSafetyOrWelfareConcerns",
+    "UserRole": "caseworker-privatelaw-courtadmin",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "OtherSafetyOrWelfareConcerns",
+    "UserRole": "caseworker-privatelaw-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "OtherSafetyOrWelfareConcerns",
+    "UserRole": "caseworker-privatelaw-judge",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "OtherSafetyOrWelfareConcerns",
+    "UserRole": "caseworker-privatelaw-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "OtherSafetyOrWelfareConcerns",
+    "UserRole": "caseworker-privatelaw-superuser",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "OtherSafetyOrWelfareConcernsDetails",
+    "UserRole": "caseworker-privatelaw-courtadmin",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "OtherSafetyOrWelfareConcernsDetails",
+    "UserRole": "caseworker-privatelaw-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "OtherSafetyOrWelfareConcernsDetails",
+    "UserRole": "caseworker-privatelaw-judge",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "OtherSafetyOrWelfareConcernsDetails",
+    "UserRole": "caseworker-privatelaw-la",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "OtherSafetyOrWelfareConcernsDetails",
+    "UserRole": "caseworker-privatelaw-superuser",
+    "CRUD": "R"
   }
 ]
