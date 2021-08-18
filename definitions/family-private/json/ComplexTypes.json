@@ -39,6 +39,9 @@
     "ListElementCode": "Language",
     "FieldType": "Text",
     "ElementLabel": "Language and dialect required",
+    "SecurityClassification": "Public"
+  },
+  {
     "LiveFrom": "01/08/2021",
     "ID": "DaysAndHours",
     "ListElementCode": "days",
