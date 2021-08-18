@@ -295,7 +295,7 @@
     "LiveFrom": "01/08/2021",
     "CaseTypeID": "C100",
     "ID": "ParaChildAbduction",
-    "Label": "### 1. Child abduction",
+    "Label": "### Child abduction",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
@@ -400,7 +400,7 @@
     "LiveFrom": "01/08/2021",
     "CaseTypeID": "C100",
     "ID": "ParaChildAbuse",
-    "Label": "### 2. Child abuse",
+    "Label": "### Child abuse",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
