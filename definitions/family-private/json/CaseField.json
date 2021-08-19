@@ -24,6 +24,73 @@
     "SecurityClassification": "Public"
   },
   {
+    "LiveFrom": "10/08/2021",
+    "CaseTypeID": "C100",
+    "ID": "LabelPleaseUploadDocuments",
+    "Label": "**Please upload documents that relate to this application:**",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "10/08/2021",
+    "CaseTypeID": "C100",
+    "ID": "LabelDocumentsRequired",
+    "Label": "Documents required based on your answers",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "10/08/2021",
+    "CaseTypeID": "C100",
+    "ID": "LabelContactOrResidenceOrder",
+    "Label": "A contact or residence order made within proceedings for a divorce or dissolution of a civil partnership",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "10/08/2021",
+    "CaseTypeID": "C100",
+    "ID": "LabelC8FormForConfidentiality",
+    "Label": "--- \n C8 form for confidentiality of the applicant",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "10/08/2021",
+    "CaseTypeID": "C100",
+    "ID": "LabelUploadOtherDocuments",
+    "Label": "--- \n Upload other documents",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "10/08/2021",
+    "CaseTypeID": "C100",
+    "ID": "ContactOrderDocumentsUploaded",
+    "Label": "Contact order",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "Document",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "10/08/2021",
+    "CaseTypeID": "C100",
+    "ID": "C8FormDocumentsUploaded",
+    "Label": "C8 form",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "Document",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "10/08/2021",
+    "CaseTypeID": "C100",
+    "ID": "OtherDocumentsUploaded",
+    "Label": "Other documents",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "Document",
+    "SecurityClassification": "Public"
+  },
+  {
     "LiveFrom": "11/08/2021",
     "CaseTypeID": "C100",
     "ID": "LabelApplicants",
@@ -71,6 +138,90 @@
     "Hint": "Providing evidence of domestic violence or abuse concerns",
     "FieldType": "MultiSelectList",
     "FieldTypeParameter" : "MiamExemptionsEnum",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "13/08/2021",
+    "CaseTypeID": "C100",
+    "ID": "LabelSpecialMeasuresRequired",
+    "Label": "**When attending court, please any special measures required.**",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "13/08/2021",
+    "CaseTypeID": "C100",
+    "ID": "IsWelshNeeded",
+    "Label": "Do you or any other party need to use spoken Welsh in the course of the proceedings or require written documentation in Welsh?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "13/08/2021",
+    "CaseTypeID": "C100",
+    "ID": "WelshNeeds",
+    "Label": "Welsh needs",
+    "Min": 1,
+    "FieldType": "Collection",
+    "FieldTypeParameter": "WelshNeed",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "13/08/2021",
+    "CaseTypeID": "C100",
+    "ID": "IsInterpreterNeeded",
+    "Label": "Do you or any of the parties require the court to appoint an interpreter or arrange any other assistance (e.g. sign language)?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "13/08/2021",
+    "CaseTypeID": "C100",
+    "ID": "InterpreterNeeds",
+    "Label": "Interpreter needs",
+    "Min": 1,
+    "FieldType": "Collection",
+    "FieldTypeParameter": "InterpreterNeed",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "13/08/2021",
+    "CaseTypeID": "C100",
+    "ID": "IsIntermediaryNeeded",
+    "Label": "Are you aware of whether an intermediary will be required?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "13/08/2021",
+    "CaseTypeID": "C100",
+    "ID": "LanguageAndDilectRequired",
+    "Label": "Language and dialect required",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "13/08/2021",
+    "CaseTypeID": "C100",
+    "ID": "IsSpecialAssistanceNeeded",
+    "Label": "If attending the court, do you or any of the parties involved have a disability for which you require special assistance or special facilities?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "13/08/2021",
+    "CaseTypeID": "C100",
+    "ID": "AssistanceRequired",
+    "Label": "What assistance is required?",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "13/08/2021",
+    "CaseTypeID": "C100",
+    "ID": "SpecialArrangementsRequired",
+    "Label": "Please say whether there is a need for the court to make any special arrangements for you or any relevant children to attend court (e.g. providing you with a separate waiting room from the respondent or other security provisions).",
+    "FieldType": "TextArea",
     "SecurityClassification": "Public"
   },
   {
@@ -248,6 +399,375 @@
     "CaseTypeID": "C100",
     "ID": "ApplicationWithoutNoticeRespondentWillFrustrateReasons",
     "Label": "Set out the reasons below",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "ID": "DomesticAbuse",
+    "Label": "Any form of domestic abuse?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "ID": "ChildAbduction",
+    "Label": "Child abduction?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "ID": "ChildAbuse",
+    "Label": "Child abuse?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "ID": "DrugsAlcoholSubstanceAbuse",
+    "Label": "Drugs, alcohol or substance abuse?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "ID": "SafetyWelfareConcerns",
+    "Label": "Other safety or welfare concerns?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "ID": "ParaChildAbduction",
+    "Label": "### Child abduction",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "ID": "ChildAtRiskOfAbduction",
+    "Label": "Are the children at risk of being abducted?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "ID": "PoliceNotified",
+    "Label": "Have the police been notified?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "ID": "ChildHasPassport",
+    "Label": "Do any of the children have a passport?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "ID": "ChildAbductedBefore",
+    "Label": "Have the children been abducted or kept outside the UK without your consent before?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "ID": "ChildHasMultiplePassports",
+    "Label": "Do the children have more than one passport?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "ID": "ChildPassportPossession",
+    "Label": "Who is in possession of the children's passports?",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "PassportPossessionEnum",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "ID": "ChildPassportPossessionOtherDetails",
+    "Label": "Give details of the other person",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "ID": "ChildAbductionDetails",
+    "Label": "Provide details of previous abductions",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "ID": "AbductionPoliceInvolved",
+    "Label": "Were the police, private investigators or any Organisation involved?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "ID": "AbductionPoliceInvolvedDetails",
+    "Label": "Provide more details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "ID": "ChildAtRiskOfAbductionReason",
+    "Label": "Why do you think the children may be abducted or kept outside the UK without the Applicant's consent?",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "ID": "ChildWhereabouts",
+    "Label": "Where are the children now?",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "ID": "ParaChildAbuse",
+    "Label": "### Child abuse",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "ID": "ChildAbuseSexually",
+    "Label": "Have the children ever been sexually abused?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "ID": "ChildAbuseSexuallyDetails",
+    "Label": "Nature of behaviour / what happened?",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "ID": "ChildAbuseSexuallyStartDate",
+    "Label": "When did the behaviour start?",
+    "FieldType": "Date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "ID": "ChildAbuseSexuallyOngoing",
+    "Label": "Is the behaviour still ongoing?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "ID": "ChildAbuseSexuallyHelpSought",
+    "Label": "Was help sought? If so, who from?",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "ID": "ChildAbusePhysically",
+    "Label": "Have the children ever been physically abused?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "ID": "ChildAbusePhysicallyDetails",
+    "Label": "Nature of behaviour / what happened?",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "ID": "ChildAbusePhysicallyStartDate",
+    "Label": "When did the behaviour start?",
+    "FieldType": "Date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "ID": "ChildAbusePhysicallyOngoing",
+    "Label": "Is the behaviour still ongoing?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "ID": "ChildAbusePhysicallyHelpSought",
+    "Label": "Was help sought? If so, who from?",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "ID": "ChildAbuseFinancially",
+    "Label": "Have the children ever been financially abused?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "ID": "ChildAbuseFinanciallyDetails",
+    "Label": "Nature of behaviour / what happened?",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "ID": "ChildAbuseFinanciallyStartDate",
+    "Label": "When did the behaviour start?",
+    "FieldType": "Date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "ID": "ChildAbuseFinanciallyOngoing",
+    "Label": "Is the behaviour still ongoing?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "ID": "ChildAbuseFinanciallyHelpSought",
+    "Label": "Was help sought? If so, who from?",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "ID": "ChildAbuseDomestic",
+    "Label": "Any form of domestic abuse?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "ID": "ChildAbuseDomesticDetails",
+    "Label": "Nature of behaviour / what happened?",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "ID": "ChildAbuseDomesticStartDate",
+    "Label": "When did the behaviour start?",
+    "FieldType": "Date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "ID": "ChildAbuseDomesticOngoing",
+    "Label": "Is the behaviour still ongoing?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "ID": "ChildAbuseDomesticHelpSought",
+    "Label": "Was help sought? If so, who from?",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "ID": "ChildDrugsAlcoholSubstanceAbuse",
+    "Label": "Drugs, alcohol or substance abuse?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "ID": "ChildDrugsAlcoholSubstanceAbuseDetails",
+    "Label": "Nature of behaviour / what happened?",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "ID": "ChildDrugsAlcoholSubstanceAbuseStartDate",
+    "Label": "When did the behaviour start?",
+    "FieldType": "Date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "ID": "ChildDrugsAlcoholSubstanceAbuseOngoing",
+    "Label": "Is the behaviour still ongoing?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "ID": "ChildDrugsAlcoholSubstanceAbuseHelpSought",
+    "Label": "Was help sought? If so, who from?",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "ID": "OtherSafetyOrWelfareConcerns",
+    "Label": "Other safety or welfare concerns?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/08/2021",
+    "CaseTypeID": "C100",
+    "ID": "OtherSafetyOrWelfareConcernsDetails",
+    "Label": "Other safety or welfare concerns details",
     "FieldType": "TextArea",
     "SecurityClassification": "Public"
   }

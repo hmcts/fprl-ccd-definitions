@@ -1,5 +1,60 @@
 [
   {
+    "LiveFrom": "13/08/2021",
+    "CaseTypeID": "C100",
+    "ID": "WelshNeed",
+    "CaseEventID": "specialMeasures",
+    "CaseFieldID": "WelshNeeds",
+    "ListElementCode": "WhoNeedsWelsh",
+    "EventElementLabel": "",
+    "FieldDisplayOrder": "1",
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "LiveFrom": "13/08/2021",
+    "CaseTypeID": "C100",
+    "ID": "WelshNeed",
+    "CaseEventID": "specialMeasures",
+    "CaseFieldID": "WelshNeeds",
+    "ListElementCode": "SpokenOrWritten",
+    "EventElementLabel": "",
+    "FieldDisplayOrder": "2",
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "LiveFrom": "13/08/2021",
+    "CaseTypeID": "C100",
+    "ID": "InterpreterNeed",
+    "CaseEventID": "specialMeasures",
+    "CaseFieldID": "InterpreterNeeds",
+    "ListElementCode": "Party",
+    "EventElementLabel": "",
+    "FieldDisplayOrder": "1",
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "LiveFrom": "13/08/2021",
+    "CaseTypeID": "C100",
+    "ID": "InterpreterNeed",
+    "CaseEventID": "specialMeasures",
+    "CaseFieldID": "InterpreterNeeds",
+    "ListElementCode": "Name",
+    "EventElementLabel": "",
+    "FieldDisplayOrder": "2",
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "LiveFrom": "13/08/2021",
+    "CaseTypeID": "C100",
+    "ID": "InterpreterNeed",
+    "CaseEventID": "specialMeasures",
+    "CaseFieldID": "InterpreterNeeds",
+    "ListElementCode": "Language",
+    "EventElementLabel": "",
+    "FieldDisplayOrder": "3",
+    "DisplayContext": "MANDATORY"
+  },
+  {
     "LiveFrom": "01/08/2021",
     "CaseTypeID": "C100",
     "ID": "selectApplicationType-ApplicationConsideredInDaysAndHours",
