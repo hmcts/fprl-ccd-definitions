@@ -1058,6 +1058,60 @@
     "PageFieldDisplayOrder": 28,
     "ShowSummaryChangeOption": "Yes"
   },
+
+
+
+  {
+    "LiveFrom": "23/08/2021",
+    "CaseTypeID": "C100",
+    "CaseEventID": "solicitorCreate",
+    "CaseFieldID": "ApplicantAttendedMIAMLabel",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "READONLY",
+    "PageID": 3,
+    "PageDisplayOrder": 15,
+    "PageColumnNumber": 1,
+    "ShowSummaryChangeOption": "Y",
+    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/miam-attend-exempt-check"
+  },
+  {
+    "LiveFrom": "23/08/2021",
+    "CaseTypeID": "C100",
+    "CaseEventID": "solicitorCreate",
+    "CaseFieldID": "ApplicantAttendedMIAM",
+    "PageFieldDisplayOrder": 2,
+    "DisplayContext": "MANDATORY",
+    "PageID": 3,
+    "PageDisplayOrder": 15,
+    "PageColumnNumber": 1,
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "LiveFrom": "23/08/2021",
+    "CaseTypeID": "C100",
+    "CaseEventID": "solicitorCreate",
+    "CaseFieldID": "ClaimingExemptionMIAMLabel",
+    "PageFieldDisplayOrder": 3,
+    "DisplayContext": "READONLY",
+    "PageID": 3,
+    "PageDisplayOrder": 15,
+    "PageColumnNumber": 1,
+    "FieldShowCondition": "ApplicantAttendedMIAM=\"No\"",
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "LiveFrom": "23/08/2021",
+    "CaseTypeID": "C100",
+    "CaseEventID": "solicitorCreate",
+    "CaseFieldID": "ClaimingExemptionMIAM",
+    "PageFieldDisplayOrder": 4,
+    "DisplayContext": "MANDATORY",
+    "PageID": 3,
+    "PageDisplayOrder": 15,
+    "PageColumnNumber": 1,
+    "FieldShowCondition": "ApplicantAttendedMIAM=\"No\"",
+    "ShowSummaryChangeOption": "Y"
+  },
   {
     "LiveFrom": "23/08/2021",
     "CaseTypeID": "C100",
@@ -1065,7 +1119,7 @@
     "CaseFieldID": "FamilyMediatorMIAM",
     "PageFieldDisplayOrder": 1,
     "DisplayContext": "MANDATORY",
-    "PageID": 2,
+    "PageID": 3,
     "PageDisplayOrder": 2,
     "FieldShowCondition": "ClaimingExemptionMIAM=\"Yes\" AND ApplicantAttendedMIAM=\"No\"",
     "ShowSummaryChangeOption": "Y"
