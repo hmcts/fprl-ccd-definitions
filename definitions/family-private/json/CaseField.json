@@ -869,7 +869,7 @@
     "ID": "MIAMDomesticViolenceChecklist",
     "Label": "        ",
     "FieldType": "MultiSelectList",
-    "FieldTypeParameter": "FR_ms_MIAMDomesticViolenceChecklist",
+    "FieldTypeParameter": "MIAMDomesticViolenceChecklistEnum",
     "SecurityClassification": "Public"
   },
   {
@@ -894,7 +894,7 @@
     "ID": "MIAMUrgencyReasonChecklist",
     "Label": "        ",
     "FieldType": "MultiSelectList",
-    "FieldTypeParameter": "FR_ms_MIAMUrgencyReasonChecklist",
+    "FieldTypeParameter": "MIAMUrgencyReasonChecklistEnum",
     "SecurityClassification": "Public"
   },
   {
@@ -911,7 +911,7 @@
     "ID": "MIAMPreviousAttendanceChecklist",
     "Label": "Select one",
     "FieldType": "FixedRadioList",
-    "FieldTypeParameter": "FR_ms_MIAMPreviousAttendanceChecklist",
+    "FieldTypeParameter": "MIAMPreviousAttendanceChecklistEnum",
     "SecurityClassification": "Public"
   },
   {
@@ -928,7 +928,7 @@
     "ID": "MIAMOtherGroundsChecklist",
     "Label": "Select one",
     "FieldType": "FixedRadioList",
-    "FieldTypeParameter": "FR_ms_MIAMOtherGroundsChecklist",
+    "FieldTypeParameter": "MIAMOtherGroundsChecklistEnum",
     "SecurityClassification": "Public"
   },
   {
