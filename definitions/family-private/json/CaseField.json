@@ -844,7 +844,7 @@
     "ID": "MIAMExemptionsChecklist",
     "Label": "       ",
     "FieldType": "MultiSelectList",
-    "FieldTypeParameter": "FR_ms_MIAMExemptionsChecklist",
+    "FieldTypeParameter": "MIAMExemptionsChecklistEnum",
     "SecurityClassification": "Public"
   },
   {
