@@ -809,6 +809,14 @@
   {
     "LiveFrom": "23/08/2021",
     "CaseTypeID": "C100",
+    "ID": "MIAMExemptionsLabel",
+    "Label": "## MIAM Exemptions : what is the reason(s) for the applicant not attending a MIAM?",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "23/08/2021",
+    "CaseTypeID": "C100",
     "ID": "FamilyMediatorMIAMLabel",
     "Label": "## Has a family mediator informed the applicant that a mediator’s exemption applies, and they do not need to attend a MIAM ?",
     "FieldType": "Label",
@@ -939,7 +947,7 @@
   {
     "LiveFrom": "23/08/2021",
     "CaseTypeID": "C100",
-    "ID": "mediatorRegistrationNumber",
+    "ID": "MediatorRegistrationNumber",
     "Label": "Mediator Registration Number (URN)",
     "FieldType": "Text",
     "SecurityClassification": "Public"
@@ -947,7 +955,7 @@
   {
     "LiveFrom": "23/08/2021",
     "CaseTypeID": "C100",
-    "ID": "familyMediatorServiceName",
+    "ID": "FamilyMediatorServiceName",
     "Label": "Family Mediation Service Name",
     "FieldType": "Text",
     "SecurityClassification": "Public"
@@ -955,7 +963,7 @@
   {
     "LiveFrom": "23/08/2021",
     "CaseTypeID": "C100",
-    "ID": "soleTraderName",
+    "ID": "SoleTraderName",
     "Label": "Sole Trader Name",
     "FieldType": "Text",
     "SecurityClassification": "Public"
