@@ -721,9 +721,6 @@
     "FieldType": "TextArea",
     "SecurityClassification": "Public"
   },
-
-
-
   {
     "LiveFrom": "23/08/2021",
     "CaseTypeID": "C100",
@@ -889,11 +886,6 @@
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
-
-
-
-
-
   {
     "LiveFrom": "23/08/2021",
     "CaseTypeID": "C100",
