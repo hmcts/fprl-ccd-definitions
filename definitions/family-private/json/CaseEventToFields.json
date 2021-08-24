@@ -1058,9 +1058,6 @@
     "PageFieldDisplayOrder": 28,
     "ShowSummaryChangeOption": "Yes"
   },
-
-
-
   {
     "LiveFrom": "23/08/2021",
     "CaseTypeID": "C100",
@@ -1071,8 +1068,7 @@
     "PageID": 3,
     "PageDisplayOrder": 15,
     "PageColumnNumber": 1,
-    "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/miam-attend-exempt-check"
+    "ShowSummaryChangeOption": "Y"
   },
   {
     "LiveFrom": "23/08/2021",
