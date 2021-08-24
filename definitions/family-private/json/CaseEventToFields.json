@@ -2,7 +2,7 @@
   {
     "LiveFrom": "01/07/2021",
     "CaseTypeID": "C100",
-    "CaseEventID": "solicitorCreate",
+    "CaseEventID": "peopleInTheCase",
     "CaseFieldID": "ApplicantName",
     "DisplayContext": "MANDATORY",
     "PageID": 1,
@@ -12,7 +12,7 @@
   {
     "LiveFrom": "01/07/2021",
     "CaseTypeID": "C100",
-    "CaseEventID": "solicitorCreate",
+    "CaseEventID": "peopleInTheCase",
     "CaseFieldID": "ChildName",
     "DisplayContext": "MANDATORY",
     "PageID": 1,
@@ -1061,36 +1061,36 @@
   {
     "LiveFrom": "23/08/2021",
     "CaseTypeID": "C100",
-    "CaseEventID": "solicitorCreate",
+    "CaseEventID": "peopleInTheCase",
     "CaseFieldID": "ApplicantAttendedMIAMLabel",
     "PageFieldDisplayOrder": 1,
     "DisplayContext": "READONLY",
     "PageID": 3,
-    "PageDisplayOrder": 15,
+    "PageDisplayOrder": 3,
     "PageColumnNumber": 1,
     "ShowSummaryChangeOption": "Y"
   },
   {
     "LiveFrom": "23/08/2021",
     "CaseTypeID": "C100",
-    "CaseEventID": "solicitorCreate",
+    "CaseEventID": "peopleInTheCase",
     "CaseFieldID": "ApplicantAttendedMIAM",
     "PageFieldDisplayOrder": 2,
     "DisplayContext": "MANDATORY",
     "PageID": 3,
-    "PageDisplayOrder": 15,
+    "PageDisplayOrder": 3,
     "PageColumnNumber": 1,
     "ShowSummaryChangeOption": "Y"
   },
   {
     "LiveFrom": "23/08/2021",
     "CaseTypeID": "C100",
-    "CaseEventID": "solicitorCreate",
+    "CaseEventID": "peopleInTheCase",
     "CaseFieldID": "ClaimingExemptionMIAMLabel",
     "PageFieldDisplayOrder": 3,
     "DisplayContext": "READONLY",
     "PageID": 3,
-    "PageDisplayOrder": 15,
+    "PageDisplayOrder": 3,
     "PageColumnNumber": 1,
     "FieldShowCondition": "ApplicantAttendedMIAM=\"No\"",
     "ShowSummaryChangeOption": "Y"
@@ -1098,12 +1098,12 @@
   {
     "LiveFrom": "23/08/2021",
     "CaseTypeID": "C100",
-    "CaseEventID": "solicitorCreate",
+    "CaseEventID": "peopleInTheCase",
     "CaseFieldID": "ClaimingExemptionMIAM",
     "PageFieldDisplayOrder": 4,
     "DisplayContext": "MANDATORY",
     "PageID": 3,
-    "PageDisplayOrder": 15,
+    "PageDisplayOrder": 3,
     "PageColumnNumber": 1,
     "FieldShowCondition": "ApplicantAttendedMIAM=\"No\"",
     "ShowSummaryChangeOption": "Y"
@@ -1111,19 +1111,19 @@
   {
     "LiveFrom": "23/08/2021",
     "CaseTypeID": "C100",
-    "CaseEventID": "solicitorCreate",
+    "CaseEventID": "peopleInTheCase",
     "CaseFieldID": "FamilyMediatorMIAM",
     "PageFieldDisplayOrder": 1,
     "DisplayContext": "MANDATORY",
     "PageID": 3,
-    "PageDisplayOrder": 2,
+    "PageDisplayOrder": 3,
     "FieldShowCondition": "ClaimingExemptionMIAM=\"Yes\" AND ApplicantAttendedMIAM=\"No\"",
     "ShowSummaryChangeOption": "Y"
   },
   {
     "LiveFrom": "23/08/2021",
     "CaseTypeID": "C100",
-    "CaseEventID": "solicitorCreate",
+    "CaseEventID": "peopleInTheCase",
     "CaseFieldID": "MIAMExemptionsLabel",
     "PageFieldDisplayOrder": 1,
     "DisplayContext": "READONLY",
@@ -1135,7 +1135,7 @@
   {
     "LiveFrom": "23/08/2021",
     "CaseTypeID": "C100",
-    "CaseEventID": "solicitorCreate",
+    "CaseEventID": "peopleInTheCase",
     "CaseFieldID": "MIAMExemptionsSelectAll",
     "PageFieldDisplayOrder": 2,
     "DisplayContext": "READONLY",
@@ -1146,7 +1146,7 @@
   {
     "LiveFrom": "23/08/2021",
     "CaseTypeID": "C100",
-    "CaseEventID": "solicitorCreate",
+    "CaseEventID": "peopleInTheCase",
     "CaseFieldID": "MIAMExemptionsChecklist",
     "PageFieldDisplayOrder": 3,
     "DisplayContext": "MANDATORY",
@@ -1157,7 +1157,7 @@
   {
     "LiveFrom": "23/08/2021",
     "CaseTypeID": "C100",
-    "CaseEventID": "solicitorCreate",
+    "CaseEventID": "peopleInTheCase",
     "CaseFieldID": "MIAMDomesticViolenceLabel",
     "PageFieldDisplayOrder": 1,
     "DisplayContext": "READONLY",
@@ -1169,7 +1169,7 @@
   {
     "LiveFrom": "23/08/2021",
     "CaseTypeID": "C100",
-    "CaseEventID": "solicitorCreate",
+    "CaseEventID": "peopleInTheCase",
     "CaseFieldID": "MIAMDomesticViolenceSelectAll",
     "PageFieldDisplayOrder": 2,
     "DisplayContext": "READONLY",
@@ -1180,7 +1180,7 @@
   {
     "LiveFrom": "23/08/2021",
     "CaseTypeID": "C100",
-    "CaseEventID": "solicitorCreate",
+    "CaseEventID": "peopleInTheCase",
     "CaseFieldID": "MIAMDomesticViolenceChecklist",
     "PageFieldDisplayOrder": 3,
     "DisplayContext": "MANDATORY",
@@ -1191,7 +1191,7 @@
   {
     "LiveFrom": "23/08/2021",
     "CaseTypeID": "C100",
-    "CaseEventID": "solicitorCreate",
+    "CaseEventID": "peopleInTheCase",
     "CaseFieldID": "MIAMUrgencyReasonLabel",
     "PageFieldDisplayOrder": 1,
     "DisplayContext": "READONLY",
@@ -1203,7 +1203,7 @@
   {
     "LiveFrom": "23/08/2021",
     "CaseTypeID": "C100",
-    "CaseEventID": "solicitorCreate",
+    "CaseEventID": "peopleInTheCase",
     "CaseFieldID": "MIAMUrgencyReasonSelectAll",
     "PageFieldDisplayOrder": 2,
     "DisplayContext": "READONLY",
@@ -1214,7 +1214,7 @@
   {
     "LiveFrom": "23/08/2021",
     "CaseTypeID": "C100",
-    "CaseEventID": "solicitorCreate",
+    "CaseEventID": "peopleInTheCase",
     "CaseFieldID": "MIAMUrgencyReasonChecklist",
     "PageFieldDisplayOrder": 3,
     "DisplayContext": "MANDATORY",
@@ -1225,7 +1225,7 @@
   {
     "LiveFrom": "23/08/2021",
     "CaseTypeID": "C100",
-    "CaseEventID": "solicitorCreate",
+    "CaseEventID": "peopleInTheCase",
     "CaseFieldID": "MIAMPreviousAttendanceLabel",
     "PageFieldDisplayOrder": 1,
     "DisplayContext": "READONLY",
@@ -1237,7 +1237,7 @@
   {
     "LiveFrom": "23/08/2021",
     "CaseTypeID": "C100",
-    "CaseEventID": "solicitorCreate",
+    "CaseEventID": "peopleInTheCase",
     "CaseFieldID": "MIAMPreviousAttendanceChecklist",
     "PageFieldDisplayOrder": 2,
     "DisplayContext": "MANDATORY",
@@ -1248,7 +1248,7 @@
   {
     "LiveFrom": "23/08/2021",
     "CaseTypeID": "C100",
-    "CaseEventID": "solicitorCreate",
+    "CaseEventID": "peopleInTheCase",
     "CaseFieldID": "MIAMOtherGroundsLabel",
     "PageFieldDisplayOrder": 1,
     "DisplayContext": "READONLY",
@@ -1260,7 +1260,7 @@
   {
     "LiveFrom": "23/08/2021",
     "CaseTypeID": "C100",
-    "CaseEventID": "solicitorCreate",
+    "CaseEventID": "peopleInTheCase",
     "CaseFieldID": "MIAMOtherGroundsChecklist",
     "PageFieldDisplayOrder": 2,
     "DisplayContext": "MANDATORY",
@@ -1271,7 +1271,7 @@
   {
     "LiveFrom": "23/08/2021",
     "CaseTypeID": "C100",
-    "CaseEventID": "solicitorCreate",
+    "CaseEventID": "peopleInTheCase",
     "CaseFieldID": "MIAMCertificationPageLabel",
     "PageFieldDisplayOrder": 1,
     "DisplayContext": "READONLY",
@@ -1283,7 +1283,7 @@
   {
     "LiveFrom": "23/08/2021",
     "CaseTypeID": "C100",
-    "CaseEventID": "solicitorCreate",
+    "CaseEventID": "peopleInTheCase",
     "CaseFieldID": "MediatorRegistrationNumber",
     "PageFieldDisplayOrder": 2,
     "DisplayContext": "MANDATORY",
@@ -1294,7 +1294,7 @@
   {
     "LiveFrom": "23/08/2021",
     "CaseTypeID": "C100",
-    "CaseEventID": "solicitorCreate",
+    "CaseEventID": "peopleInTheCase",
     "CaseFieldID": "FamilyMediatorServiceName",
     "PageFieldDisplayOrder": 3,
     "DisplayContext": "MANDATORY",
@@ -1305,7 +1305,7 @@
   {
     "LiveFrom": "23/08/2021",
     "CaseTypeID": "C100",
-    "CaseEventID": "solicitorCreate",
+    "CaseEventID": "peopleInTheCase",
     "CaseFieldID": "SoleTraderName",
     "PageFieldDisplayOrder": 4,
     "DisplayContext": "MANDATORY",
@@ -1316,7 +1316,7 @@
   {
     "LiveFrom": "23/08/2021",
     "CaseTypeID": "C100",
-    "CaseEventID": "solicitorCreate",
+    "CaseEventID": "peopleInTheCase",
     "CaseFieldID": "MIAMCertificationPageMessage",
     "PageFieldDisplayOrder": 5,
     "DisplayContext": "READONLY",
@@ -1327,7 +1327,7 @@
   {
     "LiveFrom": "23/08/2021",
     "CaseTypeID": "C100",
-    "CaseEventID": "solicitorCreate",
+    "CaseEventID": "peopleInTheCase",
     "CaseFieldID": "MIAMCertificationPageLabel1",
     "PageFieldDisplayOrder": 1,
     "DisplayContext": "READONLY",
@@ -1339,7 +1339,7 @@
   {
     "LiveFrom": "23/08/2021",
     "CaseTypeID": "C100",
-    "CaseEventID": "solicitorCreate",
+    "CaseEventID": "peopleInTheCase",
     "CaseFieldID": "MediatorRegistrationNumber1",
     "PageFieldDisplayOrder": 2,
     "DisplayContext": "MANDATORY",
@@ -1350,7 +1350,7 @@
   {
     "LiveFrom": "23/08/2021",
     "CaseTypeID": "C100",
-    "CaseEventID": "solicitorCreate",
+    "CaseEventID": "peopleInTheCase",
     "CaseFieldID": "FamilyMediatorServiceName1",
     "PageFieldDisplayOrder": 3,
     "DisplayContext": "MANDATORY",
@@ -1361,7 +1361,7 @@
   {
     "LiveFrom": "23/08/2021",
     "CaseTypeID": "C100",
-    "CaseEventID": "solicitorCreate",
+    "CaseEventID": "peopleInTheCase",
     "CaseFieldID": "SoleTraderName1",
     "PageFieldDisplayOrder": 4,
     "DisplayContext": "MANDATORY",
@@ -1372,7 +1372,7 @@
   {
     "LiveFrom": "23/08/2021",
     "CaseTypeID": "C100",
-    "CaseEventID": "solicitorCreate",
+    "CaseEventID": "peopleInTheCase",
     "CaseFieldID": "MIAMCertificationPageMessage1",
     "PageFieldDisplayOrder": 5,
     "DisplayContext": "READONLY",
