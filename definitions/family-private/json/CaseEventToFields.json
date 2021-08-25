@@ -1210,8 +1210,8 @@
     "CaseFieldID": "MIAMOtherGroundsChecklist",
     "PageFieldDisplayOrder": 2,
     "DisplayContext": "MANDATORY",
-    "PageID": 8,
-    "PageDisplayOrder": 8,
+    "PageID": 7,
+    "PageDisplayOrder": 7,
     "ShowSummaryChangeOption": "Y"
   },
   {
@@ -1221,8 +1221,8 @@
     "CaseFieldID": "MIAMCertificationPageLabel",
     "PageFieldDisplayOrder": 1,
     "DisplayContext": "READONLY",
-    "PageID": 9,
-    "PageDisplayOrder": 9,
+    "PageID": 8,
+    "PageDisplayOrder": 8,
     "PageShowCondition": "ApplicantAttendedMIAM=\"Yes\"",
     "ShowSummaryChangeOption": "Y"
   },
@@ -1233,8 +1233,8 @@
     "CaseFieldID": "MediatorRegistrationNumber",
     "PageFieldDisplayOrder": 2,
     "DisplayContext": "MANDATORY",
-    "PageID": 9,
-    "PageDisplayOrder": 9,
+    "PageID": 8,
+    "PageDisplayOrder": 8,
     "ShowSummaryChangeOption": "Y"
   },
   {
@@ -1244,8 +1244,8 @@
     "CaseFieldID": "FamilyMediatorServiceName",
     "PageFieldDisplayOrder": 3,
     "DisplayContext": "MANDATORY",
-    "PageID": 9,
-    "PageDisplayOrder": 9,
+    "PageID": 8,
+    "PageDisplayOrder": 8,
     "ShowSummaryChangeOption": "Y"
   },
   {
@@ -1255,8 +1255,8 @@
     "CaseFieldID": "SoleTraderName",
     "PageFieldDisplayOrder": 4,
     "DisplayContext": "MANDATORY",
-    "PageID": 9,
-    "PageDisplayOrder": 9,
+    "PageID": 8,
+    "PageDisplayOrder": 8,
     "ShowSummaryChangeOption": "Y"
   },
   {
@@ -1266,8 +1266,8 @@
     "CaseFieldID": "MIAMCertificationPageMessage",
     "PageFieldDisplayOrder": 5,
     "DisplayContext": "READONLY",
-    "PageID": 9,
-    "PageDisplayOrder": 9,
+    "PageID": 8,
+    "PageDisplayOrder": 8,
     "ShowSummaryChangeOption": "Y"
   },
   {
@@ -1277,8 +1277,8 @@
     "CaseFieldID": "MIAMCertificationPageLabel1",
     "PageFieldDisplayOrder": 1,
     "DisplayContext": "READONLY",
-    "PageID": 10,
-    "PageDisplayOrder": 10,
+    "PageID": 9,
+    "PageDisplayOrder": 9,
     "PageShowCondition": "ClaimingExemptionMIAM=\"Yes\" AND ApplicantAttendedMIAM=\"No\" AND FamilyMediatorMIAM=\"Yes\"",
     "ShowSummaryChangeOption": "Y"
   },
@@ -1289,8 +1289,8 @@
     "CaseFieldID": "MediatorRegistrationNumber1",
     "PageFieldDisplayOrder": 2,
     "DisplayContext": "MANDATORY",
-    "PageID": 10,
-    "PageDisplayOrder": 10,
+    "PageID": 9,
+    "PageDisplayOrder": 9,
     "ShowSummaryChangeOption": "Y"
   },
   {
@@ -1300,8 +1300,8 @@
     "CaseFieldID": "FamilyMediatorServiceName1",
     "PageFieldDisplayOrder": 3,
     "DisplayContext": "MANDATORY",
-    "PageID": 10,
-    "PageDisplayOrder": 10,
+    "PageID": 9,
+    "PageDisplayOrder": 9,
     "ShowSummaryChangeOption": "Y"
   },
   {
@@ -1311,8 +1311,8 @@
     "CaseFieldID": "SoleTraderName1",
     "PageFieldDisplayOrder": 4,
     "DisplayContext": "MANDATORY",
-    "PageID": 10,
-    "PageDisplayOrder": 10,
+    "PageID": 9,
+    "PageDisplayOrder": 9,
     "ShowSummaryChangeOption": "Y"
   },
   {
@@ -1322,8 +1322,8 @@
     "CaseFieldID": "MIAMCertificationPageMessage1",
     "PageFieldDisplayOrder": 5,
     "DisplayContext": "READONLY",
-    "PageID": 10,
-    "PageDisplayOrder": 10,
+    "PageID": 9,
+    "PageDisplayOrder": 9,
     "ShowSummaryChangeOption": "Y"
   }
 ]
