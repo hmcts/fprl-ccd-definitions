@@ -1003,9 +1003,8 @@
     "CaseFieldID": "ApplicantAttendedMIAMLabel",
     "PageFieldDisplayOrder": 1,
     "DisplayContext": "READONLY",
-    "PageID": 3,
-    "PageDisplayOrder": 3,
-    "PageColumnNumber": 1,
+    "PageID": 2,
+    "PageDisplayOrder": 2,
     "ShowSummaryChangeOption": "Y"
   },
   {
@@ -1015,9 +1014,8 @@
     "CaseFieldID": "ApplicantAttendedMIAM",
     "PageFieldDisplayOrder": 2,
     "DisplayContext": "MANDATORY",
-    "PageID": 3,
-    "PageDisplayOrder": 3,
-    "PageColumnNumber": 1,
+    "PageID": 2,
+    "PageDisplayOrder": 2,
     "ShowSummaryChangeOption": "Y"
   },
   {
@@ -1027,9 +1025,8 @@
     "CaseFieldID": "ClaimingExemptionMIAMLabel",
     "PageFieldDisplayOrder": 3,
     "DisplayContext": "READONLY",
-    "PageID": 3,
-    "PageDisplayOrder": 3,
-    "PageColumnNumber": 1,
+    "PageID": 2,
+    "PageDisplayOrder": 2,
     "FieldShowCondition": "ApplicantAttendedMIAM=\"No\"",
     "ShowSummaryChangeOption": "Y"
   },
@@ -1040,10 +1037,21 @@
     "CaseFieldID": "ClaimingExemptionMIAM",
     "PageFieldDisplayOrder": 4,
     "DisplayContext": "MANDATORY",
-    "PageID": 3,
-    "PageDisplayOrder": 3,
-    "PageColumnNumber": 1,
+    "PageID": 2,
+    "PageDisplayOrder": 2,
     "FieldShowCondition": "ApplicantAttendedMIAM=\"No\"",
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "LiveFrom": "25/08/2021",
+    "CaseTypeID": "C100",
+    "CaseEventID": "peopleInTheCase",
+    "CaseFieldID": "FamilyMediatorMIAMLabel",
+    "PageFieldDisplayOrder": 5,
+    "DisplayContext": "READONLY",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "FieldShowCondition": "ClaimingExemptionMIAM=\"Yes\" AND ApplicantAttendedMIAM=\"No\"",
     "ShowSummaryChangeOption": "Y"
   },
   {
@@ -1051,10 +1059,10 @@
     "CaseTypeID": "C100",
     "CaseEventID": "peopleInTheCase",
     "CaseFieldID": "FamilyMediatorMIAM",
-    "PageFieldDisplayOrder": 1,
+    "PageFieldDisplayOrder": 6,
     "DisplayContext": "MANDATORY",
-    "PageID": 3,
-    "PageDisplayOrder": 3,
+    "PageID": 2,
+    "PageDisplayOrder": 2,
     "FieldShowCondition": "ClaimingExemptionMIAM=\"Yes\" AND ApplicantAttendedMIAM=\"No\"",
     "ShowSummaryChangeOption": "Y"
   },
