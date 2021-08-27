@@ -75,5 +75,29 @@
     "SecurityClassification": "Public",
     "ShowSummary": "Y",
     "ShowEventNotes": "N"
+  },
+  {
+    "LiveFrom": "27/08/2021",
+    "CaseTypeID": "C100",
+    "ID": "attachScannedDocs",
+    "Name": "Attach scanned docs",
+    "Description": "Attach scanned docs",
+    "DisplayOrder": 7,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowSummary": "N"
+  },
+  {
+    "LiveFrom": "27/08/2021",
+    "CaseTypeID": "C100",
+    "ID": "handleEvidence",
+    "Name": "Handle supplementary evidence",
+    "Description": "Handle supplementary evidence",
+    "DisplayOrder": 8,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowSummary": "N"
   }
 ]

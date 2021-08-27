@@ -957,5 +957,22 @@
     "Label": "**You should have a document signed by the mediator confirming this (which you should bring to your first hearing)**",
     "FieldType": "Label",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "27/08/2021",
+    "CaseTypeID": "C100",
+    "ID": "ScannedDocuments",
+    "Label": "Scanned Documents",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "ScannedDocument",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "27/08/2021",
+    "CaseTypeID": "C100",
+    "ID": "EvidenceHandled",
+    "Label": "Supplementary evidence handled",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
   }
 ]

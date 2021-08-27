@@ -1327,5 +1327,41 @@
     "PageID": 9,
     "PageDisplayOrder": 9,
     "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "LiveFrom": "27/08/2021",
+    "CaseTypeID": "C100",
+    "CaseEventID": "attachScannedDocs",
+    "CaseFieldID": "ScannedDocuments",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL",
+    "PageID": 1,
+    "PageLabel": "BulkScanning",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "No"
+  },
+  {
+    "LiveFrom": "27/08/2021",
+    "CaseTypeID": "C100",
+    "CaseEventID": "attachScannedDocs",
+    "CaseFieldID": "EvidenceHandled",
+    "PageFieldDisplayOrder": 2,
+    "DisplayContext": "MANDATORY",
+    "PageID": 2,
+    "PageLabel": "BulkScanning",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "No"
+  },
+  {
+    "LiveFrom": "27/08/2021",
+    "CaseTypeID": "DIVORCE",
+    "CaseEventID": "handleEvidence",
+    "CaseFieldID": "EvidenceHandled",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY",
+    "PageID": 1,
+    "PageLabel": "BulkScanning",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "No"
   }
 ]

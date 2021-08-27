@@ -422,5 +422,29 @@
     "ID": "MIAMOtherGroundsChecklistEnum",
     "ListElementCode": "MIAMOtherGroundsChecklistEnum_Value_11",
     "ListElement": "There is no authorised family mediator with an office within fifteen miles of the prospective applicant’s home. "
+  },
+  {
+    "LiveFrom": "27/08/2021",
+    "ID": "ScannedDocumentType",
+    "ListElementCode": "cherished",
+    "ListElement": "Cherished"
+  },
+  {
+    "LiveFrom": "27/08/2021",
+    "ID": "ScannedDocumentType",
+    "ListElementCode": "coversheet",
+    "ListElement": "Coversheet"
+  },
+  {
+    "LiveFrom": "27/08/2021",
+    "ID": "ScannedDocumentType",
+    "ListElementCode": "form",
+    "ListElement": "Form"
+  },
+  {
+    "LiveFrom": "02/01/2017",
+    "ID": "ScannedDocumentType",
+    "ListElementCode": "other",
+    "ListElement": "Other"
   }
 ]
