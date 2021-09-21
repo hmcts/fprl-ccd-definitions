@@ -1,5 +1,5 @@
 exports.config = {
-  tests: './*_test.js',
+  tests: './tests/*.js',
   output: './output',
   helpers: {
     Puppeteer: {
@@ -7,8 +7,7 @@ exports.config = {
       show: true,
       url: 'http://localhost:3000',
       waitForNavigation: ['load', 'domcontentloaded', 'networkidle0'],
-      waitForAction: 4000,
-      waitForTimeout: 4000,
+      waitForTimeout: 90000,
       chrome: { ignoreHTTPSErrors: true }
     }
   },
