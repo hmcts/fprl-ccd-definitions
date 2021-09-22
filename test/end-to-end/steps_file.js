@@ -2,7 +2,7 @@
 
 const { waitForPage } = require('./pages/common/common');
 const { createCase } = require('./pages/create-case/create-case');
-const { uploadDocuments } = require('./pages/upload-documents/upload-documents');
+const { addNewDocument, uploadDocuments } = require('./pages/upload-documents/upload-documents');
 
 module.exports = () => {
   return actor({
@@ -20,6 +20,7 @@ module.exports = () => {
     },
     createCase,
     waitForPage,
+    addNewDocument,
     uploadDocuments,
 
     safeguardingAndRiskOfHarm() {
