@@ -30,16 +30,10 @@ module.exports = {
     await I.click('Continue');
   },
 
-  async submitEvent() {
-    await I.waitForElement('h2');
-    await I.see('Check your answers');
-    await I.click('Submit');
-  },
-
   async createNewCase() {
     await this.clickCreateCase();
     await this.fillFormAndSubmit();
     await this.fillSolicitorApplicationPage();
-    await this.submitEvent();
+    await I.submitEvent();
   }
 };

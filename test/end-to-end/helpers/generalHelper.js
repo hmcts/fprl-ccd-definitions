@@ -7,6 +7,27 @@ const fields = {
 };
 
 class GeneralHelper extends Helper {
+  async selectPostCodeLookupAddress(locator, postcode) {
+    const searchResponseTime = 3;
+    const { Puppeteer } = this.helpers;
+    const postcodeInputLocator = `//input[@id="${locator}_postcodeInput"]`;
+    const addressListLocator = `select[id="${locator}_addressList"]`;
+
+    await Puppeteer.waitForElement(postcodeInputLocator);
+    await Puppeteer.fillField(postcodeInputLocator, postcode);
+    await Puppeteer.click('Find address');
+    await Puppeteer.waitForElement(addressListLocator);
+    await Puppeteer.wait(searchResponseTime);
+    await Puppeteer.selectOption(addressListLocator, '1: Object');
+  }
+
+  async submitEvent() {
+    const { Puppeteer } = this.helpers;
+    await Puppeteer.waitForElement('h2');
+    await Puppeteer.see('Check your answers');
+    await Puppeteer.click('Submit');
+  }
+
   async triggerEvent(eventName) {
     const { Puppeteer } = this.helpers;
     await Puppeteer.waitForElement(fields.eventList);
