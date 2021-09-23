@@ -8,12 +8,19 @@ exports.config = {
       url: 'http://localhost:3000',
       waitForNavigation: ['load', 'domcontentloaded', 'networkidle0'],
       waitForTimeout: 90000,
-      chrome: { ignoreHTTPSErrors: true }
+      ignoreHTTPSErrors: true,
+      chrome: {
+        ignoreHTTPSErrors: true,
+        args: [
+          '--no-sandbox',
+          '--start-fullscreen'
+        ]
+      }
     },
     GeneralHelper: { require: './helpers/generalHelper.js' }
   },
   include: { I: './steps_file.js' },
   bootstrap: null,
   mocha: {},
-  name: 'div-ccd-definitions'
+  name: 'fprl-ccd-definitions'
 };

@@ -7,6 +7,12 @@ const fields = {
 };
 
 class GeneralHelper extends Helper {
+  async addNewDocument(field) {
+    const { Puppeteer } = this.helpers;
+    await Puppeteer.click('Add new', { css: `#${field}>div>button` });
+    await Puppeteer.attachFile(`input[id="${field}_value"]`, '../resource/dummy.pdf');
+  }
+
   async amOnHistoryPageWithSuccessNotification() {
     const { Puppeteer } = this.helpers;
     await Puppeteer.waitForText('History');
@@ -38,6 +44,21 @@ class GeneralHelper extends Helper {
     await Puppeteer.waitForElement(fields.eventList);
     await Puppeteer.selectOption(fields.eventList, eventName);
     await Puppeteer.click(fields.submit);
+  }
+
+  async waitForPage(header, headerText) {
+    const { Puppeteer } = this.helpers;
+
+    try {
+      // eslint-disable-next-line no-undefined
+      if (headerText === undefined) {
+        await Puppeteer.waitForElement(header, '90');
+      } else {
+        await Puppeteer.waitForText(headerText, '90', header);
+      }
+    } catch (error) {
+      throw error;
+    }
   }
 }
 

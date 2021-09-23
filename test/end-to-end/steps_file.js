@@ -1,14 +1,12 @@
-
 const CreateCasePage = require('./pages/CreateCase');
 const LoginPage = require('./pages/Login');
 const PeopleInTheCasePage = require('./pages/PeopleInTheCase');
+const UploadDocuments = require('./pages/UploadDocuments');
 
 const generalHelper = require('./helpers/generalHelper');
 
-
 module.exports = () => {
   return actor({
-
     createCase() {
       return CreateCasePage.createNewCase();
     },
@@ -20,6 +18,9 @@ module.exports = () => {
     },
     triggerEvent(eventName) {
       return generalHelper.triggerEvent(eventName);
+    },
+    uploadDocuments() {
+      return UploadDocuments.uploadDocuments();
     },
     async safeguardingAndRiskOfHarm() {
       await this.click('#next-step').selectByVisibleText('Safeguarding and risk of harm');

@@ -68,7 +68,7 @@ module.exports = {
     await I.retry(retryCount).checkOption('//input[@id="ExistingProceedings_0_ContactOrderWithinAdoptionOrder_Yes"]');
     await I.retry(retryCount).checkOption('//input[@id="ExistingProceedings_0_ChildMaintenanceOrder_Yes"]');
     await I.retry(retryCount).checkOption('//input[@id="ExistingProceedings_0_ChildArrangementsOrder_Yes"]');
-    await I.attachFile('//input[@id="ExistingProceedings_0_ProceedingOrder"]', 'data/TEST-PDF.pdf');
+    await I.attachFile('//input[@id="ExistingProceedings_0_ProceedingOrder"]', '../resource/dummy.pdf');
     await I.wait(uploadTime);
     await I.click(this.fields.submit);
   },
