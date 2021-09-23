@@ -19,15 +19,16 @@ module.exports = {
   },
 
   async fillChildrenPage() {
+    const retryCount = 3;
     await I.waitForElement('#Children');
     await I.click('Add new');
     await I.fillField('//input[@id="Children_0_FirstName"]', 'Test Firstname');
     await I.fillField('//input[@id="Children_0_LastName"]', 'Test Lastname');
-    await I.fillField('//input[@id="DateOfBirth-day"]', '11');
-    await I.fillField('//input[@id="DateOfBirth-month"]', '11');
-    await I.fillField('//input[@id="DateOfBirth-year"]', '2005');
-    await I.checkOption('//input[@id="Children_0_Gender-male"]');
-    await I.checkOption('//input[@id="Children_0_OrderAppliedFor-childArrangementsOrder"]');
+    await I.retry(retryCount).fillField('//input[@id="DateOfBirth-day"]', '11');
+    await I.retry(retryCount).fillField('//input[@id="DateOfBirth-month"]', '11');
+    await I.retry(retryCount).fillField('//input[@id="DateOfBirth-year"]', '2005');
+    await I.retry(retryCount).checkOption('//input[@id="Children_0_Gender-male"]');
+    await I.retry(retryCount).checkOption('//input[@id="Children_0_OrderAppliedFor-childArrangementsOrder"]');
     await I.fillField('//input[@id="Children_0_RelationshipToApplicant"]', 'Mother');
     await I.fillField('//input[@id="Children_0_RelationshipToRespondent"]', 'Father');
     await I.click(this.fields.submit);
@@ -50,6 +51,7 @@ module.exports = {
   },
 
   async fillOtherCourtCasesPage() {
+    const retryCount = 3;
     const uploadTime = 5;
     await I.waitForElement('//input[@id="IsExistingProceedings_Yes"]');
     await I.checkOption('//input[@id="IsExistingProceedings_Yes"]');
@@ -57,32 +59,33 @@ module.exports = {
     await I.click('Add new');
     await I.fillField('//input[@id="ExistingProceedings_0_CourtName"]', 'Court name');
     await I.fillField('//input[@id="ExistingProceedings_0_CaseNumber"]', 'TEST001');
-    await I.checkOption('//input[@id="ExistingProceedings_0_EmergencyProtectionOrder_Yes"]');
-    await I.checkOption('//input[@id="ExistingProceedings_0_SupervisionOrder_Yes"]');
-    await I.checkOption('//input[@id="ExistingProceedings_0_CaseOrder_Yes"]');
-    await I.checkOption('//input[@id="ExistingProceedings_0_ChildAbduction_Yes"]');
-    await I.checkOption('//input[@id="ExistingProceedings_0_FamilyLawAct_Yes"]');
-    await I.checkOption('//input[@id="ExistingProceedings_0_ContactOrderWithinProceedings_Yes"]');
-    await I.checkOption('//input[@id="ExistingProceedings_0_ContactOrderWithinAdoptionOrder_Yes"]');
-    await I.checkOption('//input[@id="ExistingProceedings_0_ChildMaintenanceOrder_Yes"]');
-    await I.checkOption('//input[@id="ExistingProceedings_0_ChildArrangementsOrder_Yes"]');
+    await I.retry(retryCount).checkOption('//input[@id="ExistingProceedings_0_EmergencyProtectionOrder_Yes"]');
+    await I.retry(retryCount).checkOption('//input[@id="ExistingProceedings_0_SupervisionOrder_Yes"]');
+    await I.retry(retryCount).checkOption('//input[@id="ExistingProceedings_0_CaseOrder_Yes"]');
+    await I.retry(retryCount).checkOption('//input[@id="ExistingProceedings_0_ChildAbduction_Yes"]');
+    await I.retry(retryCount).checkOption('//input[@id="ExistingProceedings_0_FamilyLawAct_Yes"]');
+    await I.retry(retryCount).checkOption('//input[@id="ExistingProceedings_0_ContactOrderWithinProceedings_Yes"]');
+    await I.retry(retryCount).checkOption('//input[@id="ExistingProceedings_0_ContactOrderWithinAdoptionOrder_Yes"]');
+    await I.retry(retryCount).checkOption('//input[@id="ExistingProceedings_0_ChildMaintenanceOrder_Yes"]');
+    await I.retry(retryCount).checkOption('//input[@id="ExistingProceedings_0_ChildArrangementsOrder_Yes"]');
     await I.attachFile('//input[@id="ExistingProceedings_0_ProceedingOrder"]', 'data/TEST-PDF.pdf');
     await I.wait(uploadTime);
     await I.click(this.fields.submit);
   },
 
   async fillApplicantsPage() {
+    const retryCount = 3;
     await I.waitForElement('#Applicants');
     await I.click('Add new');
     await I.fillField('//input[@id="Applicants_0_FirstName"]', 'Applicant Firstname');
     await I.fillField('//input[@id="Applicants_0_LastName"]', 'Applicant Lastname');
-    await I.fillField('//input[@id="DateOfBirth-day"]', '10');
-    await I.fillField('//input[@id="DateOfBirth-month"]', '10');
-    await I.fillField('//input[@id="DateOfBirth-year"]', '1990');
-    await I.checkOption('//input[@id="Applicants_0_Gender-male"]');
+    await I.retry(retryCount).fillField('//input[@id="DateOfBirth-day"]', '10');
+    await I.retry(retryCount).fillField('//input[@id="DateOfBirth-month"]', '10');
+    await I.retry(retryCount).fillField('//input[@id="DateOfBirth-year"]', '1990');
+    await I.retry(retryCount).checkOption('//input[@id="Applicants_0_Gender-male"]');
     await I.fillField('//input[@id="Applicants_0_PlaceOfBirth"]', 'London');
     await I.selectPostCodeLookupAddress(this.fields.applicantAddress, 'B11LS');
-    await I.checkOption('//input[@id="Applicants_0_IsAtAddressLessThan5Years_Yes"]');
+    await I.retry(retryCount).checkOption('//input[@id="Applicants_0_IsAtAddressLessThan5Years_Yes"]');
     await I.fillField('//input[@id="Applicants_0_Email"]', 'applicant@email.com');
     await I.fillField('//input[@id="Applicants_0_Landline"]', '02112344567');
     await I.fillField('//input[@id="Applicants_0_PhoneNumber"]', '07112344567');
@@ -108,17 +111,18 @@ module.exports = {
   },
 
   async fillRespondentsPage() {
+    const retryCount = 3;
     await I.waitForElement('#Respondents');
     await I.click('Add new');
     await I.fillField('//input[@id="Respondents_0_FirstName"]', 'Respondent Firstname');
     await I.fillField('//input[@id="Respondents_0_LastName"]', 'Respondent Lastname');
-    await I.fillField('//input[@id="DateOfBirth-day"]', '10');
-    await I.fillField('//input[@id="DateOfBirth-month"]', '11');
-    await I.fillField('//input[@id="DateOfBirth-year"]', '1995');
-    await I.checkOption('//input[@id="Respondents_0_Gender-male"]');
+    await I.retry(retryCount).fillField('//input[@id="DateOfBirth-day"]', '10');
+    await I.retry(retryCount).fillField('//input[@id="DateOfBirth-month"]', '11');
+    await I.retry(retryCount).fillField('//input[@id="DateOfBirth-year"]', '1995');
+    await I.retry(retryCount).checkOption('//input[@id="Respondents_0_Gender-male"]');
     await I.fillField('//input[@id="Respondents_0_PlaceOfBirth"]', 'Birmingham');
     await I.selectPostCodeLookupAddress(this.fields.respondentAddress, 'B11LS');
-    await I.checkOption('//input[@id="Respondents_0_IsAtAddressLessThan5Years_Yes"]');
+    await I.retry(retryCount).checkOption('//input[@id="Respondents_0_IsAtAddressLessThan5Years_Yes"]');
     await I.fillField('//input[@id="Respondents_0_Email"]', 'respondent@email.com');
     await I.fillField('//input[@id="Respondents_0_Landline"]', '02112236569');
     await I.fillField('//input[@id="Respondents_0_PhoneNumber"]', '07122334667');
@@ -126,13 +130,14 @@ module.exports = {
   },
 
   async fillOtherPeople() {
+    const retryCount = 3;
     await I.waitForElement('#OthersToNotify');
     await I.click('Add new');
     await I.fillField('//input[@id="OthersToNotify_0_FirstName"]', 'Other Firstname');
     await I.fillField('//input[@id="OthersToNotify_0_LastName"]', 'Other Lastname');
-    await I.checkOption('//input[@id="OthersToNotify_0_IsDateOfBirthUnknown-dontKnow"]');
-    await I.checkOption('//input[@id="OthersToNotify_0_Gender-male"]');
-    await I.checkOption('//input[@id="OthersToNotify_0_IsAddressUnknown-dontKnow"]');
+    await I.retry(retryCount).checkOption('//input[@id="OthersToNotify_0_IsDateOfBirthUnknown-dontKnow"]');
+    await I.retry(retryCount).checkOption('//input[@id="OthersToNotify_0_Gender-male"]');
+    await I.retry(retryCount).checkOption('//input[@id="OthersToNotify_0_IsAddressUnknown-dontKnow"]');
     await I.fillField('//input[@id="OthersToNotify_0_Email"]', 'otherstonotify@email.com');
     await I.fillField('//input[@id="OthersToNotify_0_Landline"]', '02112233589');
     await I.fillField('//input[@id="OthersToNotify_0_PhoneNumber"]', '07122884667');
@@ -141,12 +146,13 @@ module.exports = {
   },
 
   async fillOtherChildren() {
+    const retryCount = 3;
     await I.waitForElement('#OtherChildren');
     await I.click('Add new');
     await I.fillField('//input[@id="OtherChildren_0_FirstName"]', 'Test Firstname');
     await I.fillField('//input[@id="OtherChildren_0_LastName"]', 'Test Lastname');
-    await I.checkOption('//input[@id="OtherChildren_0_IsDateOfBirthUnknown-dontKnow"]');
-    await I.checkOption('//input[@id="OtherChildren_0_Gender-female"]');
+    await I.retry(retryCount).checkOption('//input[@id="OtherChildren_0_IsDateOfBirthUnknown-dontKnow"]');
+    await I.retry(retryCount).checkOption('//input[@id="OtherChildren_0_Gender-female"]');
     await I.fillField('//input[@id="OtherChildren_0_RelationshipToApplicant"]', 'Son');
     await I.fillField('//input[@id="OtherChildren_0_RelationshipToRespondent"]', 'Nephew');
     await I.click(this.fields.submit);
@@ -165,5 +171,6 @@ module.exports = {
     await this.fillOtherPeople();
     await this.fillOtherChildren();
     await I.submitEvent();
+    await I.amOnHistoryPageWithSuccessNotification();
   }
 };

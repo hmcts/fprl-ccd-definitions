@@ -7,6 +7,12 @@ const fields = {
 };
 
 class GeneralHelper extends Helper {
+  async amOnHistoryPageWithSuccessNotification() {
+    const { Puppeteer } = this.helpers;
+    await Puppeteer.waitForText('History');
+    await Puppeteer.waitForElement('i.icon-tick');
+  }
+
   async selectPostCodeLookupAddress(locator, postcode) {
     const searchResponseTime = 3;
     const { Puppeteer } = this.helpers;
@@ -23,8 +29,7 @@ class GeneralHelper extends Helper {
 
   async submitEvent() {
     const { Puppeteer } = this.helpers;
-    await Puppeteer.waitForElement('h2');
-    await Puppeteer.see('Check your answers');
+    await Puppeteer.waitForText('Check your answers');
     await Puppeteer.click('Submit');
   }
 

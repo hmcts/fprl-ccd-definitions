@@ -35,5 +35,6 @@ module.exports = {
     await this.fillFormAndSubmit();
     await this.fillSolicitorApplicationPage();
     await I.submitEvent();
+    await I.amOnHistoryPageWithSuccessNotification();
   }
 };

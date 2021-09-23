@@ -5,7 +5,6 @@ const PeopleInTheCasePage = require('./pages/PeopleInTheCase');
 
 const generalHelper = require('./helpers/generalHelper');
 
-// const I = actor();
 
 module.exports = () => {
   return actor({
