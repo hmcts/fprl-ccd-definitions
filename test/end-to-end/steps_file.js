@@ -3,6 +3,7 @@
 const { waitForPage } = require('./pages/common/common');
 const { createCase } = require('./pages/create-case/create-case');
 const { addNewDocument, uploadDocuments } = require('./pages/upload-documents/upload-documents');
+const { goingToCourtSelectNoForAll } = require('./pages/going-to-court/goint-to-court');
 
 module.exports = () => {
   return actor({
@@ -22,6 +23,7 @@ module.exports = () => {
     waitForPage,
     addNewDocument,
     uploadDocuments,
+    goingToCourtSelectNoForAll,
 
     safeguardingAndRiskOfHarm() {
       this.click('#next-step').selectByVisibleText('Safeguarding and risk of harm');
