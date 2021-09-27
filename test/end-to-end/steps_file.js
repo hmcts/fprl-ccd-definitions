@@ -6,7 +6,7 @@ const UploadDocuments = require('./pages/UploadDocuments');
 const { waitForPage } = require('./pages/common/common');
 const { createCase } = require('./pages/create-case/create-case');
 const { addNewDocument, uploadDocuments } = require('./pages/upload-documents/upload-documents');
-const { goingToCourtSelectNoForAll } = require('./pages/going-to-court/goint-to-court');
+const { goingToCourtSelectNoForAll, goingToCourtSelectYesForAll } = require('./pages/going-to-court/goint-to-court');
 const generalHelper = require('./helpers/generalHelper');
 
 module.exports = () => {
@@ -22,6 +22,7 @@ module.exports = () => {
     addNewDocument,
     uploadDocuments,
     goingToCourtSelectNoForAll,
+    goingToCourtSelectYesForAll,
 
     runPeopleInTheCaseEvent() {
       return PeopleInTheCasePage.runEventHappyPath();
