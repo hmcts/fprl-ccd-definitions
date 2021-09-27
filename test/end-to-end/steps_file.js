@@ -3,9 +3,6 @@ const LoginPage = require('./pages/Login');
 const PeopleInTheCasePage = require('./pages/PeopleInTheCase');
 const UploadDocuments = require('./pages/UploadDocuments');
 
-const { waitForPage } = require('./pages/common/common');
-const { createCase } = require('./pages/create-case/create-case');
-const { addNewDocument, uploadDocuments } = require('./pages/upload-documents/upload-documents');
 const { goingToCourtSelectNoForAll, goingToCourtSelectYesForAll } = require('./pages/going-to-court/goint-to-court');
 const generalHelper = require('./helpers/generalHelper');
 
@@ -17,10 +14,6 @@ module.exports = () => {
     loginAsSolicitor() {
       return LoginPage.loginAsSolicitor();
     },
-    createCase,
-    waitForPage,
-    addNewDocument,
-    uploadDocuments,
     goingToCourtSelectNoForAll,
     goingToCourtSelectYesForAll,
 
