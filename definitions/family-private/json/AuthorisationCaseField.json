@@ -3673,5 +3673,89 @@
     "CaseFieldID": "SoleTraderName1",
     "UserRole": "caseworker-privatelaw-solicitor",
     "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "05/10/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ConsentOrder",
+    "UserRole": "caseworker-privatelaw-courtadmin",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "05/10/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ConsentOrder",
+    "UserRole": "caseworker-privatelaw-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "05/10/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ConsentOrder",
+    "UserRole": "caseworker-privatelaw-judge",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "05/10/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "DraftConsentOrderLabel",
+    "UserRole": "caseworker-privatelaw-courtadmin",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "05/10/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "DraftConsentOrderLabel",
+    "UserRole": "caseworker-privatelaw-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "05/10/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "DraftConsentOrderLabel",
+    "UserRole": "caseworker-privatelaw-judge",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "05/10/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "LabelUploadConsentOrderFile",
+    "UserRole": "caseworker-privatelaw-courtadmin",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "05/10/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "LabelUploadConsentOrderFile",
+    "UserRole": "caseworker-privatelaw-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "05/10/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "LabelUploadConsentOrderFile",
+    "UserRole": "caseworker-privatelaw-judge",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "05/10/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "DraftConsentOrderFile",
+    "UserRole": "caseworker-privatelaw-courtadmin",
+    "CRUD": "CRUD"
+  },
+  {
+    "LiveFrom": "05/10/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "DraftConsentOrderFile",
+    "UserRole": "caseworker-privatelaw-solicitor",
+    "CRUD": "CRUD"
+  },
+  {
+    "LiveFrom": "05/10/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "DraftConsentOrderFile",
+    "UserRole": "caseworker-privatelaw-judge",
+    "CRUD": "CRUD"
   }
 ]
