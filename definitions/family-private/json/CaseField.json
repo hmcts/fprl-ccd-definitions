@@ -1240,9 +1240,8 @@
     "LiveFrom": "05/10/2021",
     "CaseTypeID": "C100",
     "ID": "DraftConsentOrderLabel",
-    "Label": "Draft Consent Order",
-    "FieldType": "Text",
-    "HintText": "Upload a scanned PDF or DOCX of the draft consent order, signed by both parties. Wherever possible, documents should be scanned in greyscale. Maximum filesize 4MB",
+    "Label": "Draft Consent Order \n Upload a scanned PDF or DOCX of the draft consent order, signed by both parties. Wherever possible, documents should be scanned in greyscale. Maximum filesize 4MB",
+    "FieldType": "Label",
     "SecurityClassification": "Public"
   },
   {
