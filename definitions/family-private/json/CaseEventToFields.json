@@ -951,23 +951,12 @@
     "LiveFrom": "01/08/2021",
     "CaseTypeID": "C100",
     "CaseEventID": "selectApplicationType",
-    "CaseFieldID": "DraftConsentOrderLabel",
-    "DisplayContext": "READONLY",
-    "FieldShowCondition": "ConsentOrder=\"Yes\"",
-    "PageID": 2,
-    "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder": 2
-  },
-  {
-    "LiveFrom": "01/08/2021",
-    "CaseTypeID": "C100",
-    "CaseEventID": "selectApplicationType",
     "CaseFieldID": "DraftConsentOrderFile",
     "DisplayContext": "MANDATORY",
     "FieldShowCondition": "ConsentOrder=\"Yes\"",
     "PageID": 2,
     "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder": 3
+    "PageFieldDisplayOrder": 2
   },
   {
     "LiveFrom": "01/08/2021",

@@ -3698,27 +3698,6 @@
   {
     "LiveFrom": "05/10/2021",
     "CaseTypeID": "C100",
-    "CaseFieldID": "DraftConsentOrderLabel",
-    "UserRole": "caseworker-privatelaw-courtadmin",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "05/10/2021",
-    "CaseTypeID": "C100",
-    "CaseFieldID": "DraftConsentOrderLabel",
-    "UserRole": "caseworker-privatelaw-solicitor",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "05/10/2021",
-    "CaseTypeID": "C100",
-    "CaseFieldID": "DraftConsentOrderLabel",
-    "UserRole": "caseworker-privatelaw-judge",
-    "CRUD": "CRU"
-  },
-  {
-    "LiveFrom": "05/10/2021",
-    "CaseTypeID": "C100",
     "CaseFieldID": "DraftConsentOrderFile",
     "UserRole": "caseworker-privatelaw-courtadmin",
     "CRUD": "CRUD"
