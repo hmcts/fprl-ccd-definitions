@@ -456,17 +456,5 @@
     "ID": "MIAMOtherGroundsChecklistEnum",
     "ListElementCode": "MIAMOtherGroundsChecklistEnum_Value_11",
     "ListElement": "There is no authorised family mediator with an office within fifteen miles of the prospective applicant’s home. "
-  },
-  {
-    "LiveFrom": "05/10/2021",
-    "ID": "ConsentOrderEnum",
-    "ListElementCode": "YES",
-    "ListElement": "Yes"
-  },
-  {
-    "LiveFrom": "05/10/2021",
-    "ID": "ConsentOrderEnum",
-    "ListElementCode": "NO",
-    "ListElement": "No"
   }
 ]

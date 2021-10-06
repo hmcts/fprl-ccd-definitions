@@ -3679,41 +3679,41 @@
     "CaseTypeID": "C100",
     "CaseFieldID": "ConsentOrder",
     "UserRole": "caseworker-privatelaw-courtadmin",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "LiveFrom": "05/10/2021",
     "CaseTypeID": "C100",
     "CaseFieldID": "ConsentOrder",
     "UserRole": "caseworker-privatelaw-solicitor",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "LiveFrom": "05/10/2021",
     "CaseTypeID": "C100",
     "CaseFieldID": "ConsentOrder",
     "UserRole": "caseworker-privatelaw-judge",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "LiveFrom": "05/10/2021",
     "CaseTypeID": "C100",
     "CaseFieldID": "DraftConsentOrderFile",
     "UserRole": "caseworker-privatelaw-courtadmin",
-    "CRUD": "CRUD"
+    "CRUD": "R"
   },
   {
     "LiveFrom": "05/10/2021",
     "CaseTypeID": "C100",
     "CaseFieldID": "DraftConsentOrderFile",
     "UserRole": "caseworker-privatelaw-solicitor",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "05/10/2021",
     "CaseTypeID": "C100",
     "CaseFieldID": "DraftConsentOrderFile",
     "UserRole": "caseworker-privatelaw-judge",
-    "CRUD": "CRUD"
+    "CRUD": "R"
   }
 ]

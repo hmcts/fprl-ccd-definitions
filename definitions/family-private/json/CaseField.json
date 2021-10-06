@@ -1229,21 +1229,20 @@
     "SecurityClassification": "Public"
   },
   {
-    "LiveFrom": "01/08/2021",
+    "LiveFrom": "05/10/2021",
     "CaseTypeID": "C100",
     "ID": "ConsentOrder",
     "Label": "Do you have a draft consent order?",
-    "FieldType": "FixedRadioList",
-    "FieldTypeParameter": "ConsentOrderEnum",
+    "FieldType": "YesOrNo",
     "SecurityClassification": "Public"
   },
   {
-    "LiveFrom": "10/08/2021",
+    "LiveFrom": "05/10/2021",
     "CaseTypeID": "C100",
     "ID": "DraftConsentOrderFile",
     "Label": "Draft Consent Order",
     "FieldType": "Document",
-    "HintText": "Upload a scanned PDF or DOCX of the draft consent order, signed by both parties. Wherever possible, documents should be scanned in greyscale. Maximum filesize 4MB",
+    "HintText": "Upload a scanned PDF or DOCX of the draft consent order, signed by both parties. Wherever possible, documents should be scanned in greyscale.",
     "RegularExpression": ".pdf,.docx",
     "SecurityClassification": "Public"
   }
