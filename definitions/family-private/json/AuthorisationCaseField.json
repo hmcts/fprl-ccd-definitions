@@ -3686,7 +3686,7 @@
     "CaseTypeID": "C100",
     "CaseFieldID": "ConsentOrder",
     "UserRole": "caseworker-privatelaw-solicitor",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "LiveFrom": "05/10/2021",
