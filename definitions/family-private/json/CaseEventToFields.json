@@ -956,7 +956,8 @@
     "FieldShowCondition": "ConsentOrder=\"Yes\"",
     "PageID": 2,
     "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder": 2
+    "PageFieldDisplayOrder": 2,
+    "ShowSummaryChangeOption": "Yes"
   },
   {
     "LiveFrom": "01/08/2021",
