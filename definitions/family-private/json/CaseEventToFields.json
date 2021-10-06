@@ -953,7 +953,7 @@
     "CaseEventID": "selectApplicationType",
     "CaseFieldID": "DraftConsentOrderFile",
     "DisplayContext": "MANDATORY",
-    "FieldShowCondition": "ConsentOrder=\"Yes\"",
+    "FieldShowCondition": "ConsentOrder=\"YES\"",
     "PageID": 2,
     "PageDisplayOrder": 2,
     "PageFieldDisplayOrder": 2
