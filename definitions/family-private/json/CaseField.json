@@ -1238,14 +1238,6 @@
     "SecurityClassification": "Public"
   },
   {
-    "LiveFrom": "05/10/2021",
-    "CaseTypeID": "C100",
-    "ID": "DraftConsentOrderLabel",
-    "Label": "Draft Consent Order",
-    "FieldType": "Label",
-    "SecurityClassification": "Public"
-  },
-  {
     "LiveFrom": "10/08/2021",
     "CaseTypeID": "C100",
     "ID": "DraftConsentOrderFile",
