@@ -1233,7 +1233,8 @@
     "CaseTypeID": "C100",
     "ID": "ConsentOrder",
     "Label": "Do you have a draft consent order?",
-    "FieldType": "YesOrNo",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "ConsentOrderEnum",
     "SecurityClassification": "Public"
   },
   {
