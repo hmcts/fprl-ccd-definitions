@@ -11,7 +11,7 @@
     "LiveFrom": "01/07/2021",
     "CaseTypeID": "C100",
     "ID": "ApplicantName",
-    "Label": "Applicant name",
+    "Label": "Petitioner name",
     "FieldType": "Text",
     "SecurityClassification": "Public"
   },
@@ -19,7 +19,7 @@
     "LiveFrom": "01/07/2021",
     "CaseTypeID": "C100",
     "ID": "ChildName",
-    "Label": "Child name",
+    "Label": "Child name is",
     "FieldType": "Text",
     "SecurityClassification": "Public"
   },

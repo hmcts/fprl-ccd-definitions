@@ -14,7 +14,7 @@
     "CaseTypeID": "C100",
     "Channel": "CaseWorker",
     "TabID": "ApplicationDetails",
-    "TabLabel": "Application",
+    "TabLabel": "Petition",
     "TabDisplayOrder": 2,
     "CaseFieldID": "ApplicantName",
     "TabFieldDisplayOrder": 1
@@ -24,7 +24,7 @@
     "CaseTypeID": "C100",
     "Channel": "CaseWorker",
     "TabID": "ApplicationDetails",
-    "TabLabel": "Application",
+    "TabLabel": "Petition",
     "TabDisplayOrder": 2,
     "CaseFieldID": "ChildName",
     "TabFieldDisplayOrder": 2
