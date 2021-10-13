@@ -38,6 +38,10 @@ withPipeline("nodejs", product, component) {
 
   loadVaultSecrets(secrets)
 
+  onPR() {
+    enableFullFunctionalTest()
+  }
+
   after('test') {
     // enable yarn audit and send message on master branch only
     try {
