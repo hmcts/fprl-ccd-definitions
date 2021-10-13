@@ -645,6 +645,17 @@
     "ShowSummaryChangeOption": "Y"
   },
   {
+    "LiveFrom": "13/10/2021",
+    "CaseTypeID": "C100",
+    "CaseEventID": "peopleInTheCase",
+    "CaseFieldID": "MIAMCertificationDocumentUpload",
+    "PageFieldDisplayOrder": 6,
+    "DisplayContext": "MANDATORY",
+    "PageID": "peopleInTheCase-14",
+    "PageDisplayOrder": 14,
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
     "LiveFrom": "20/08/2021",
     "CaseTypeID": "C100",
     "CaseEventID": "peopleInTheCase",
