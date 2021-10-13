@@ -15,5 +15,5 @@ module.exports = {
     await I.fillField(this.fields.email, 'fprl_caseworker_solicitor@mailinator.com');
     await I.fillField(this.fields.password, 'Nagoya0102');
     await I.click(this.fields.submit);
-   }
+  }
 };
