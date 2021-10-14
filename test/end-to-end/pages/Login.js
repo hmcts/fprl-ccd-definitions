@@ -9,7 +9,7 @@ module.exports = {
   },
 
   async loginAsSolicitor() {
-    await I.amOnPage('https://manage-case.aat.platform.hmcts.net/cases');
+    await I.amOnPage(`${process.env.XUI_WEB_URL}`);
     await I.click('#cookie-accept-submit');
     await I.seeElement('#authorizeCommand > div.form-section > div.login-list > input.button');
     await I.fillField(this.fields.email, 'fprl_caseworker_solicitor@mailinator.com');
