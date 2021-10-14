@@ -37,10 +37,9 @@ static LinkedHashMap<String, Object> secret(String secretName, String envVar) {
 withPipeline("nodejs", product, component) {
 
   loadVaultSecrets(secrets)
-  enableFullFunctionalTest()
-  
-  onPR() {
 
+  onPR() {
+    enableFullFunctionalTest()
   }
 
   after('test') {
