@@ -38,10 +38,6 @@ withPipeline("nodejs", product, component) {
 
   loadVaultSecrets(secrets)
 
-  onPR() {
-    enableFullFunctionalTest()
-  }
-
   after('test') {
     // enable yarn audit and send message on master branch only
     try {
@@ -69,6 +65,8 @@ withPipeline("nodejs", product, component) {
 
   after('functionalTest:preview') {
     steps.archiveArtifacts allowEmptyArchive: true, artifacts: 'test/functional/output/mochawesome.html'
+
+    yarnBuilder.yarn('test:fullfunctional')
   }
 
   before('functionalTest:aat') {
