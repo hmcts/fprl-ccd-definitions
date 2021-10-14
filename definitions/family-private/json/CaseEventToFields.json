@@ -589,6 +589,18 @@
     "ShowSummaryChangeOption": "Y"
   },
   {
+    "LiveFrom": "13/10/2021",
+    "CaseTypeID": "C100",
+    "CaseEventID": "peopleInTheCase",
+    "CaseFieldID": "MIAMCertificationDocumentUpload",
+    "PageFieldDisplayOrder": 6,
+    "DisplayContext": "MANDATORY",
+    "PageID": "peopleInTheCase-13",
+    "PageDisplayOrder": 13,
+    "ShowSummaryChangeOption": "Y"
+  },
+
+  {
     "LiveFrom": "23/08/2021",
     "CaseTypeID": "C100",
     "CaseEventID": "peopleInTheCase",
@@ -640,17 +652,6 @@
     "CaseFieldID": "MIAMCertificationPageMessage1",
     "PageFieldDisplayOrder": 5,
     "DisplayContext": "READONLY",
-    "PageID": "peopleInTheCase-14",
-    "PageDisplayOrder": 14,
-    "ShowSummaryChangeOption": "Y"
-  },
-  {
-    "LiveFrom": "13/10/2021",
-    "CaseTypeID": "C100",
-    "CaseEventID": "peopleInTheCase",
-    "CaseFieldID": "MIAMCertificationDocumentUpload",
-    "PageFieldDisplayOrder": 6,
-    "DisplayContext": "MANDATORY",
     "PageID": "peopleInTheCase-14",
     "PageDisplayOrder": 14,
     "ShowSummaryChangeOption": "Y"
