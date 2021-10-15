@@ -332,6 +332,7 @@
     "CaseFieldID": "ApplicantAttendedMIAM",
     "PageFieldDisplayOrder": 2,
     "DisplayContext": "MANDATORY",
+    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/confirm-miam-application-or-exemption",
     "PageID": "peopleInTheCase-7",
     "PageDisplayOrder": 7,
     "ShowSummaryChangeOption": "Y"
