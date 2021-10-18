@@ -321,6 +321,7 @@
     "CaseFieldID": "ApplicantAttendedMIAMLabel",
     "PageFieldDisplayOrder": 1,
     "DisplayContext": "READONLY",
+    "CallBackURLMidEvent": "${CCD_DEF_COS_URL}/confirm-miam-application-or-exemption",
     "PageID": "peopleInTheCase-7",
     "PageDisplayOrder": 7,
     "ShowSummaryChangeOption": "Y"
@@ -584,6 +585,17 @@
     "CaseFieldID": "MIAMCertificationPageMessage",
     "PageFieldDisplayOrder": 5,
     "DisplayContext": "READONLY",
+    "PageID": "peopleInTheCase-13",
+    "PageDisplayOrder": 13,
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "LiveFrom": "18/10/2021",
+    "CaseTypeID": "C100",
+    "CaseEventID": "peopleInTheCase",
+    "CaseFieldID": "MIAMCertificationDocumentUpload",
+    "PageFieldDisplayOrder": 6,
+    "DisplayContext": "MANDATORY",
     "PageID": "peopleInTheCase-13",
     "PageDisplayOrder": 13,
     "ShowSummaryChangeOption": "Y"
