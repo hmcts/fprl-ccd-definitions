@@ -3675,10 +3675,45 @@
     "CRUD": "CRU"
   },
   {
-    "LiveFrom": "10/08/2021",
+    "LiveFrom": "05/10/2021",
     "CaseTypeID": "C100",
-    "CaseFieldID": "MIAMCertificationDocumentUpload",
+    "CaseFieldID": "ConsentOrder",
     "UserRole": "caseworker-privatelaw-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "05/10/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ConsentOrder",
+    "UserRole": "caseworker-privatelaw-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "05/10/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "ConsentOrder",
+    "UserRole": "caseworker-privatelaw-judge",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "05/10/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "DraftConsentOrderFile",
+    "UserRole": "caseworker-privatelaw-courtadmin",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "05/10/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "DraftConsentOrderFile",
+    "UserRole": "caseworker-privatelaw-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "05/10/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "DraftConsentOrderFile",
+    "UserRole": "caseworker-privatelaw-judge",
     "CRUD": "R"
   },
   {
@@ -3696,7 +3731,7 @@
     "CRUD": "R"
   },
   {
-    "LiveFrom": "10/08/2021",
+        "LiveFrom": "10/08/2021",
     "CaseTypeID": "C100",
     "CaseFieldID": "MIAMCertificationDocumentUpload",
     "UserRole": "caseworker-privatelaw-la",
@@ -3715,33 +3750,5 @@
     "CaseFieldID": "MIAMCertificationDocumentUpload1",
     "UserRole": "caseworker-privatelaw-courtadmin",
     "CRUD": "R"
-  },
-  {
-    "LiveFrom": "10/08/2021",
-    "CaseTypeID": "C100",
-    "CaseFieldID": "MIAMCertificationDocumentUpload1",
-    "UserRole": "caseworker-privatelaw-solicitor",
-    "CRUD": "CRUD"
-  },
-  {
-    "LiveFrom": "10/08/2021",
-    "CaseTypeID": "C100",
-    "CaseFieldID": "MIAMCertificationDocumentUpload1",
-    "UserRole": "caseworker-privatelaw-judge",
-    "CRUD": "R"
-  },
-  {
-    "LiveFrom": "10/08/2021",
-    "CaseTypeID": "C100",
-    "CaseFieldID": "MIAMCertificationDocumentUpload1",
-    "UserRole": "caseworker-privatelaw-la",
-    "CRUD": "R"
-  },
-  {
-    "LiveFrom": "10/08/2021",
-    "CaseTypeID": "C100",
-    "CaseFieldID": "MIAMCertificationDocumentUpload1",
-    "UserRole": "caseworker-privatelaw-superuser",
-    "CRUD": "R"
-  }
+  } 
 ]

@@ -45,7 +45,7 @@
     "test:smoke": "echo smoke",
     "codeceptjs": "node $NODE_DEBUG_OPTION ./node_modules/.bin/codeceptjs --verbose",
     "test:functional": "codeceptjs run --steps -c test/functional/codecept.conf.js",
-    "test:end-to-end": "codeceptjs run --steps -c test/end-to-end/codecept.conf.js",
+    "test:fullfunctional": "codeceptjs run --steps -c test/end-to-end/codecept.conf.js",
     "start": "node index.js",
     "sonar-scan": "node_modules/sonar-scanner/bin/sonar-scanner",
     "generate-json": "yarn --cwd ccd-definition-processor xlsx2json -D ../definitions/family-private/json -i ../definitions/family-private/xlsx/ccd-config-base.xlsx && pretty-quick --pattern 'definitions/**/json/**.json'",
@@ -68,6 +68,7 @@
     "config": "^3.0.1",
     "eslint-plugin-codeceptjs": "^1.0.0",
     "express": "^4.16.4",
+    "left-pad": "^1.0.0",
     "puppeteer": "^5.1.1",
     "ws": "^7.4.6"
   },
