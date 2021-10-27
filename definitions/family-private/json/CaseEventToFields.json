@@ -100,6 +100,20 @@
     "PageFieldDisplayOrder": 8
   },
   {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "C100",
+    "CaseEventID": "uploadDocuments",
+    "CaseFieldID": "applicant1OrganisationPolicy",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "COMPLEX",
+    "PageID": "2",
+    "PageLabel": "Search for the claimant's legal representative",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageColumnNumber": 1,
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
     "LiveFrom": "20/08/2021",
     "CaseTypeID": "C100",
     "CaseEventID": "peopleInTheCase",

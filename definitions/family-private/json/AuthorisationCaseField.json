@@ -3785,5 +3785,12 @@
     "CaseFieldID": "MIAMCertificationDocumentUpload1",
     "UserRole": "caseworker-privatelaw-superuser",
     "CRUD": "R"
+  },
+  {
+    "LiveFrom": "10/08/2021",
+    "CaseTypeID": "C100",
+    "CaseFieldID": "applicant1OrganisationPolicy",
+    "UserRole": "caseworker-privatelaw-solicitor",
+    "CRUD": "CRUD"
   }
 ]
