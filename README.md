@@ -7,7 +7,7 @@ Project creating Family Private Law (FPRL) CCD config files.
 Clone project and in the project directory run:
  - `yarn install && yarn reset-ccd-submodule`
 
-Check `package.json` for a list of `yarn` scripts for XLS file generation and project management. Eg. AAT XLS file can
+Check `package.json` for a list of `yarn` scriptss for XLS file generation and project management. Eg. AAT XLS file can
 be generated with `yarn generate-excel-aat`
 
 ## Troubleshooting
