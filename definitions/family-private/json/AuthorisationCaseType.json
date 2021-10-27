@@ -28,5 +28,40 @@
     "CaseTypeID": "C100",
     "UserRole": "caseworker-privatelaw-superuser",
     "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "C100",
+    "CaseFieldID": "applicant1OrganisationPolicy",
+    "ListElementCode": "OrgPolicyCaseAssignedRole",
+    "UserRole": "caseworker-caa",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "C100",
+    "CaseFieldID": "applicant1OrganisationPolicy",
+    "ListElementCode": "OrgPolicyReference",
+    "UserRole": "caseworker-caa",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "C100",
+    "CaseFieldID": "applicant1OrganisationPolicy",
+    "ListElementCode": "Organisation",
+    "UserRole": "caseworker-caa",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "C100",
+    "CaseFieldID": "applicant1OrganisationPolicy",
+    "ListElementCode": "Organisation.OrganisationID",
+    "UserRole": "caseworker-caa",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "C100",
+    "CaseFieldID": "applicant1OrganisationPolicy",
+    "ListElementCode": "Organisation.OrganisationName",
+    "UserRole": "caseworker-caa",
+    "CRUD": "CRU"
   }
 ]
