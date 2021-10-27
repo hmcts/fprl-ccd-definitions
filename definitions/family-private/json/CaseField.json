@@ -27,7 +27,7 @@
     "LiveFrom": "10/08/2021",
     "CaseTypeID": "C100",
     "ID": "LabelPleaseUploadDocuments",
-    "Label": "**Please upload documents that relate to this application:**",
+    "Label": "**Please upload documents that relate to this applications:**",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
