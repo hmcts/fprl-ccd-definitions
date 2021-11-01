@@ -23,6 +23,7 @@ module.exports = {
     await I.selectOption(this.fields.jurisdiction, 'Family Private Law');
     await I.selectOption(this.fields.caseType, 'C100 Application');
     await I.selectOption(this.fields.event, 'Solicitor application');
+    I.wait('2');
     await I.waitForClickable(this.fields.submit);
     await I.click(this.fields.submit);
   },
