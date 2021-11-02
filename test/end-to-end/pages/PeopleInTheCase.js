@@ -23,7 +23,9 @@ module.exports = {
     await I.waitForElement('#Children');
     await I.click('Add new');
     await I.fillField('//input[@id="Children_0_FirstName"]', 'Test Firstname');
+    I.wait('2');
     await I.fillField('//input[@id="Children_0_LastName"]', 'Test Lastname');
+    I.wait('1');
     await I.retry(retryCount).fillField('//input[@id="DateOfBirth-day"]', '11');
     await I.retry(retryCount).fillField('//input[@id="DateOfBirth-month"]', '11');
     await I.retry(retryCount).fillField('//input[@id="DateOfBirth-year"]', '2005');
@@ -63,6 +65,7 @@ module.exports = {
     await I.fillField('//input[@id="ExistingProceedings_0_CourtName"]', 'Court name');
     await I.fillField('//input[@id="ExistingProceedings_0_CaseNumber"]', 'TEST001');
     await I.retry(retryCount).checkOption('//input[@id="ExistingProceedings_0_EmergencyProtectionOrder_Yes"]');
+    I.wait('1');
     await I.retry(retryCount).checkOption('//input[@id="ExistingProceedings_0_SupervisionOrder_Yes"]');
     await I.retry(retryCount).checkOption('//input[@id="ExistingProceedings_0_CaseOrder_Yes"]');
     await I.retry(retryCount).checkOption('//input[@id="ExistingProceedings_0_ChildAbduction_Yes"]');
@@ -78,15 +81,12 @@ module.exports = {
 
   async fillApplicantsPage() {
     const retryCount = 3;
-    I.wait('3');
-    await I.click('#Applicants > div > button');
+    I.wait('2');
+    await I.click('Add new');
     I.wait('1');
     await I.fillField('//input[@id="Applicants_0_FirstName"]', 'Applicant Firstname');
-    I.wait('1');
-    await I.click('Add new');
-    await I.retry(retryCount).fillField('//input[@id="Applicants_0_FirstName"]', 'Applicant Firstname');
     I.wait('2');
-    await I.retry(retryCount).fillField('//input[@id="Applicants_0_LastName"]', 'Applicant Lastname');
+    await I.fillField('//input[@id="Applicants_0_LastName"]', 'Applicant Lastname');
     await I.retry(retryCount).fillField('//input[@id="DateOfBirth-day"]', '10');
     await I.retry(retryCount).fillField('//input[@id="DateOfBirth-month"]', '10');
     await I.retry(retryCount).fillField('//input[@id="DateOfBirth-year"]', '1990');
@@ -111,18 +111,21 @@ module.exports = {
   },
 
   async fillMIAMCertificationPage() {
+    const uploadTime = 5;
+    const retryCount = 3;
     await I.waitForElement('//input[@id="MediatorRegistrationNumber1"]');
     await I.fillField('//input[@id="MediatorRegistrationNumber1"]', 'URN12345');
     await I.fillField('//input[@id="FamilyMediatorServiceName1"]', 'Test service name');
     await I.fillField('//input[@id="SoleTraderName1"]', 'Test sole trader');
+    await I.attachFile('//input[@id="MIAMCertificationDocumentUpload1"]', '../resource/dummy.pdf');
+    await I.wait(uploadTime);
     await I.click(this.fields.submit);
   },
 
   async fillRespondentsPage() {
     const retryCount = 3;
-    I.wait('3');
-    await I.retry(retryCount).click('#Respondents > div > button');
     I.wait('2');
+    await I.click('Add new');
     await I.fillField('//input[@id="Respondents_0_FirstName"]', 'Respondent Firstname');
     I.wait('2');
     await I.fillField('//input[@id="Respondents_0_LastName"]', 'Respondent Lastname');
