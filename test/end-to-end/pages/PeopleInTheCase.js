@@ -112,7 +112,6 @@ module.exports = {
 
   async fillMIAMCertificationPage() {
     const uploadTime = 5;
-    const retryCount = 3;
     await I.waitForElement('//input[@id="MediatorRegistrationNumber1"]');
     await I.fillField('//input[@id="MediatorRegistrationNumber1"]', 'URN12345');
     await I.fillField('//input[@id="FamilyMediatorServiceName1"]', 'Test service name');
