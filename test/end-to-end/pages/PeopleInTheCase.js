@@ -78,16 +78,13 @@ module.exports = {
 
   async fillApplicantsPage() {
     const retryCount = 3;
-<<<<<<< Updated upstream
     I.wait('3');
     await I.click('#Applicants > div > button');
     I.wait('1');
     await I.fillField('//input[@id="Applicants_0_FirstName"]', 'Applicant Firstname');
-=======
-    I.wait('2');
+    I.wait('1');
     await I.click('Add new');
     await I.retry(retryCount).fillField('//input[@id="Applicants_0_FirstName"]', 'Applicant Firstname');
->>>>>>> Stashed changes
     I.wait('2');
     await I.retry(retryCount).fillField('//input[@id="Applicants_0_LastName"]', 'Applicant Lastname');
     await I.retry(retryCount).fillField('//input[@id="DateOfBirth-day"]', '10');
