@@ -35,12 +35,13 @@ module.exports = {
   },
 
   async fillChildrenAdditionalQuestionsPage() {
+    const retryCount = 3;
     I.wait('2');
-    await I.waitForElement('//input[@id="IsChildrenKnownToAuthority-yes"]');
-    await I.checkOption('//input[@id="IsChildrenKnownToAuthority-yes"]');
-    await I.waitForElement('//textarea[@id="ChildAndLocalAuthority"]');
-    await I.fillField('//textarea[@id="ChildAndLocalAuthority"]', 'Test local authority');
-    await I.checkOption('//input[@id="IsChildrenUnderChildProtection-yes"]');
+    await I.retry(retryCount).waitForElement('//input[@id="IsChildrenKnownToAuthority-yes"]');
+    await I.retry(retryCount).checkOption('//input[@id="IsChildrenKnownToAuthority-yes"]');
+    await I.retry(retryCount).waitForElement('//textarea[@id="ChildAndLocalAuthority"]');
+    await I.retry(retryCount).fillField('//textarea[@id="ChildAndLocalAuthority"]', 'Test local authority');
+    await I.retry(retryCount).checkOption('//input[@id="IsChildrenUnderChildProtection-yes"]');
     await I.checkOption('//input[@id="IsChildrenWithSameParents-no"]');
     await I.waitForElement('//textarea[@id="ParentsAndTheirChildren"]');
     await I.fillField('//textarea[@id="ParentsAndTheirChildren"]', 'Parent 1: Child 1');
@@ -77,12 +78,18 @@ module.exports = {
 
   async fillApplicantsPage() {
     const retryCount = 3;
+<<<<<<< Updated upstream
     I.wait('3');
     await I.click('#Applicants > div > button');
     I.wait('1');
     await I.fillField('//input[@id="Applicants_0_FirstName"]', 'Applicant Firstname');
+=======
     I.wait('2');
-    await I.fillField('//input[@id="Applicants_0_LastName"]', 'Applicant Lastname');
+    await I.click('Add new');
+    await I.retry(retryCount).fillField('//input[@id="Applicants_0_FirstName"]', 'Applicant Firstname');
+>>>>>>> Stashed changes
+    I.wait('2');
+    await I.retry(retryCount).fillField('//input[@id="Applicants_0_LastName"]', 'Applicant Lastname');
     await I.retry(retryCount).fillField('//input[@id="DateOfBirth-day"]', '10');
     await I.retry(retryCount).fillField('//input[@id="DateOfBirth-month"]', '10');
     await I.retry(retryCount).fillField('//input[@id="DateOfBirth-year"]', '1990');
