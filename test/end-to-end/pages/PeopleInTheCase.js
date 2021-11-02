@@ -23,7 +23,9 @@ module.exports = {
     await I.waitForElement('#Children');
     await I.click('Add new');
     await I.fillField('//input[@id="Children_0_FirstName"]', 'Test Firstname');
+    I.wait('2');
     await I.fillField('//input[@id="Children_0_LastName"]', 'Test Lastname');
+    I.wait('1');
     await I.retry(retryCount).fillField('//input[@id="DateOfBirth-day"]', '11');
     await I.retry(retryCount).fillField('//input[@id="DateOfBirth-month"]', '11');
     await I.retry(retryCount).fillField('//input[@id="DateOfBirth-year"]', '2005');
@@ -63,6 +65,7 @@ module.exports = {
     await I.fillField('//input[@id="ExistingProceedings_0_CourtName"]', 'Court name');
     await I.fillField('//input[@id="ExistingProceedings_0_CaseNumber"]', 'TEST001');
     await I.retry(retryCount).checkOption('//input[@id="ExistingProceedings_0_EmergencyProtectionOrder_Yes"]');
+    I.wait('1');
     await I.retry(retryCount).checkOption('//input[@id="ExistingProceedings_0_SupervisionOrder_Yes"]');
     await I.retry(retryCount).checkOption('//input[@id="ExistingProceedings_0_CaseOrder_Yes"]');
     await I.retry(retryCount).checkOption('//input[@id="ExistingProceedings_0_ChildAbduction_Yes"]');
@@ -80,12 +83,10 @@ module.exports = {
     const retryCount = 3;
     I.wait('2');
     await I.click('Add new');
-    await I.fillField('//input[@id="Applicants_0_FirstName"]', 'Applicant Firstname');
     I.wait('1');
-    await I.click('Add new');
-    await I.retry(retryCount).fillField('//input[@id="Applicants_0_FirstName"]', 'Applicant Firstname');
+    await I.fillField('//input[@id="Applicants_0_FirstName"]', 'Applicant Firstname');
     I.wait('2');
-    await I.retry(retryCount).fillField('//input[@id="Applicants_0_LastName"]', 'Applicant Lastname');
+    await I.fillField('//input[@id="Applicants_0_LastName"]', 'Applicant Lastname');
     await I.retry(retryCount).fillField('//input[@id="DateOfBirth-day"]', '10');
     await I.retry(retryCount).fillField('//input[@id="DateOfBirth-month"]', '10');
     await I.retry(retryCount).fillField('//input[@id="DateOfBirth-year"]', '1990');
