@@ -333,7 +333,7 @@
     "CaseFieldID": "ApplicantAttendedMIAM",
     "PageFieldDisplayOrder": 2,
     "DisplayContext": "MANDATORY",
-    "PageID": "iam-1",
+    "PageID": "miam-1",
     "PageDisplayOrder": 1,
     "ShowSummaryChangeOption": "Y"
   },
@@ -368,7 +368,7 @@
     "CaseFieldID": "FamilyMediatorMIAMLabel",
     "PageFieldDisplayOrder": 5,
     "DisplayContext": "READONLY",
-    "PageID": "peopleInTheCase-7",
+    "PageID": "miam-1",
     "PageDisplayOrder": 1,
     "FieldShowCondition": "ClaimingExemptionMIAM=\"Yes\" AND ApplicantAttendedMIAM=\"No\"",
     "ShowSummaryChangeOption": "Y"
