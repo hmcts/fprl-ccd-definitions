@@ -23,11 +23,11 @@ module.exports = {
   },
 
   async triggerEvent() {
-    await I.triggerEvent('Going to court');
+    await I.triggerEvent('Attending the hearing');
   },
 
   async goingToCourt() {
-    await I.waitForPage('h1', 'Going to court');
+    await I.waitForPage('h1', 'Attending the hearing');
 
     await I.click(this.fields.isWelshNeeded);
     await I.see('Welsh needs');
