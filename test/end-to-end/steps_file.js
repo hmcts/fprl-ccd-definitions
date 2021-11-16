@@ -6,6 +6,7 @@ const TypeOfApplicationEvent = require('./pages/TypeOfApplication');
 const GoingToCourt = require('./pages/GoingToCourt');
 const safeguardAndRiskOfHarmPage = require('./pages/safeguardingAndRiskOfHarm/safeguardingAndRiskOfHarm.js');
 const generalHelper = require('./helpers/generalHelper');
+const HearingUrgency = require('./pages/HearingUrgency');
 
 module.exports = () => {
   return actor({
@@ -32,6 +33,9 @@ module.exports = () => {
     },
     typeOfApplicationEvent() {
       return TypeOfApplicationEvent.typeOfApplicationEvent();
+    },
+    hearingUrgency() {
+      return HearingUrgency.hearingUrgency();
     }
   });
 };
