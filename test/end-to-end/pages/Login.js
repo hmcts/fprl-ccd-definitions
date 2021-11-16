@@ -13,7 +13,7 @@ module.exports = {
   },
 
   async loginAsSolicitor() {
-    await I.amOnPage(`${process.env.XUI_WEB_URL}`);
+    await I.amOnPage(baseUrl);
     await I.click('#cookie-accept-submit');
     await I.seeElement('#authorizeCommand > div.form-section > div.login-list > input.button');
     await I.fillField(this.fields.email, config.legalProfessionalUserOne.email);
