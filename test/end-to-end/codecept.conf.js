@@ -14,7 +14,8 @@ exports.config = {
         args: [
           '--no-sandbox'
         ]
-      }
+      },
+      windowSize: '1280x960'
     },
     GeneralHelper: { require: './helpers/generalHelper.js' }
   },
